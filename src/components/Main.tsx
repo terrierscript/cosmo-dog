@@ -28,7 +28,7 @@ const CenterArea = styled(Area)`
 
 export const Main = () => {
   return (
-    <Goodie>
+    <Gradient>
       <Layout>
         <CenterArea area={"header"}>
           <SearchInput placeholder="Search Items" />
@@ -37,6 +37,6 @@ export const Main = () => {
           <White>body</White>
         </CenterArea>
       </Layout>
-    </Goodie>
+    </Gradient>
   );
 };
