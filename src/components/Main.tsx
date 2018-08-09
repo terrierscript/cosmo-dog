@@ -2,6 +2,8 @@ import * as React from "react";
 
 import { AreaMap, generateTemplateComponent } from "./generateTemplate";
 import { Gradient, White } from "./Background";
+import { SearchInput } from "./Search";
+import styled from "styled-components";
 
 type AreaKeys = "header" | "body" | "footer";
 
@@ -19,14 +21,21 @@ const areaMap: AreaMap<AreaKeys> = {
 };
 
 const { Layout, Area } = generateTemplateComponent(areaMap);
+
+const CenterArea = styled(Area)`
+  align-self: center;
+`;
+
 export const Main = () => {
   return (
     <Gradient>
       <Layout>
-        <Area area={"header"}>header</Area>
-        <Area area={"body"}>
+        <CenterArea area={"header"}>
+          <SearchInput placeholder="Search Items" />
+        </CenterArea>
+        <CenterArea area={"body"}>
           <White>body</White>
-        </Area>
+        </CenterArea>
       </Layout>
     </Gradient>
   );
