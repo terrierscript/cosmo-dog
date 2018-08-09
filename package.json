@@ -3,15 +3,21 @@
     "@types/react": "^16.4.8",
     "@types/react-dom": "^16.0.7",
     "fusion-react": "^1.1.0",
+    "html-webpack-plugin": "^3.2.0",
     "parcel": "^1.9.7",
     "parcel-plugin-typescript": "^1.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "styled-components": "^3.4.2",
     "styled-reset": "^1.3.6",
-    "typescript": "^3.0.1"
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5"
   },
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "cosmos:export": "cosmos-export"
+  },
+  "devDependencies": {
+    "react-cosmos": "^4.6.4"
   }
 }
