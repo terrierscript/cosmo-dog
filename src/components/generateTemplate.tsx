@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 type Ar<T extends string> = {
   area: (T | null)[];
-  cols?: string[];
+  cols?: string;
 };
 export type AreaMap<T extends string> = {
   areas: Ar<T>[];
@@ -12,7 +12,7 @@ export type AreaMap<T extends string> = {
 export const generateTemplate = <T extends string>(areaMap: AreaMap<T>) => {
   const colsMap = areaMap.areas
     .map(({ area, cols }) => {
-      const colsString = cols ? cols.join(" ") : "";
+      const colsString = cols ? cols : "";
       const filled = area.map(item => {
         return !!item ? item : ".";
       });
