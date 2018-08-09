@@ -7,12 +7,14 @@ enum Area {
   body = "body",
   footer = "footer"
 }
-type Ar = { area: (Area | null)[]; cols?: string[] };
-type AreaMap = {
-  areas: Ar[];
+type Ar<T extends string> = { area: (T | null)[]; cols?: string[] };
+
+type AreaMap<T extends string> = {
+  areas: Ar<T>[];
   rows?: string[];
 };
-const areaMap: AreaMap = {
+
+const areaMap: AreaMap<Area> = {
   areas: [
     {
       area: [Area.header, Area.header, Area.header]
@@ -27,7 +29,7 @@ const areaMap: AreaMap = {
   rows: []
 };
 
-const generateTemplate = (areaMap: AreaMap) => {
+const generateTemplate = <T extends string>(areaMap: AreaMap<T>) => {
   const colsMap = areaMap.areas
     .map(({ area, cols }) => {
       const colsString = cols ? cols.join(" ") : "";
@@ -42,7 +44,6 @@ const generateTemplate = (areaMap: AreaMap) => {
       ? `/ ${areaMap.rows.join(" ")}`
       : "";
   const tmp = colsMap + rowsString;
-  console.log(tmp);
   return tmp;
 };
 
