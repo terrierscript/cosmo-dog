@@ -2,6 +2,7 @@
   "dependencies": {
     "@types/react": "^16.4.8",
     "@types/react-dom": "^16.0.7",
+    "fusion-react": "^1.1.0",
     "parcel": "^1.9.7",
     "parcel-plugin-typescript": "^1.0.0",
     "react": "^16.4.2",
