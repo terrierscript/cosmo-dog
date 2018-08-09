@@ -1,5 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
+// @ts-ignore
+import bg from "./bg.jpg";
 
 export const Gradient = styled.div`
   background: linear-gradient(
@@ -20,4 +22,11 @@ export const White = styled.div`
   width: 100%;
   min-height: 100vh;
   box-shadow: 0px 0px 2px 2px rgba(100, 100, 100, 0.2);
+`;
+
+export const Goodie = styled.div`
+  background-image: url(${bg});
+
+  background-size: cover;
+  height: 50%;
 `;

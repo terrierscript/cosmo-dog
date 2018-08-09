@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { AreaMap, generateTemplateComponent } from "./generateTemplate";
-import { Gradient, White } from "./Background";
+import { Gradient, White, Goodie } from "./Background";
 import { SearchInput } from "./Search";
 import styled from "styled-components";
 
@@ -28,7 +28,7 @@ const CenterArea = styled(Area)`
 
 export const Main = () => {
   return (
-    <Gradient>
+    <Goodie>
       <Layout>
         <CenterArea area={"header"}>
           <SearchInput placeholder="Search Items" />
@@ -37,6 +37,6 @@ export const Main = () => {
           <White>body</White>
         </CenterArea>
       </Layout>
-    </Gradient>
+    </Goodie>
   );
 };
