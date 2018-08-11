@@ -17,8 +17,8 @@
     "webpack": "^4.16.5"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "cosmos:export": "cosmos-export"
+    "start": "cosmos",
+    "build": "cosmos-export"
   },
   "devDependencies": {
     "react-cosmos": "^4.6.4"
