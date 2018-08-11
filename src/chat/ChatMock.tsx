@@ -28,7 +28,8 @@ const Timestamp = styled.div`
   color: #999;
 `;
 const Body = styled.div`
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 1.56em;
 `;
 export const CardMock = () => {
   return (
