@@ -10,7 +10,7 @@ export const Gradient = styled.div`
     rgba(0, 212, 255, 1) 100%
   );
   height: 50%;
-  color: white;
+  /* color: white; */
   padding: 0.5em;
 `;
 

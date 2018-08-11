@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const Fullheight = styled.div`
   height: 100vh;
+  color: white;
 `;
 
 export default [
