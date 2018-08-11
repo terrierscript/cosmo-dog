@@ -5,7 +5,8 @@ module.exports = {
     return {
       ...config,
       resolve: {
-        extensions: [".ts", ".tsx", ".css", ".svg", ".js", ".jsx"]
+        extensions: [".ts", ".tsx", ".css", ".svg", ".js", ".jsx"],
+        modules: ["node_modules", "src"]
       },
       module: {
         rules: [

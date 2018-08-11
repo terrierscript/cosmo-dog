@@ -24,7 +24,7 @@ export const White = styled.div`
   box-shadow: 0px 0px 2px 2px rgba(100, 100, 100, 0.2);
 `;
 
-export const Goodie = styled.div`
+export const ImageBackground = styled.div`
   background-image: url(${bg});
 
   background-size: cover;
