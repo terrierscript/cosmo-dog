@@ -5,21 +5,20 @@ import styled from "styled-components";
 const Fullheight = styled.div`
   height: 100vh;
 `;
+
 export default [
   {
     name: "Gradient",
-    component: () => (
-      <Gradient>
-        <Fullheight>Some Content</Fullheight>
-      </Gradient>
-    )
+    component: Gradient,
+    props: {
+      children: <Fullheight>Some Content</Fullheight>
+    }
   },
   {
     name: "ImageBackground",
-    component: () => (
-      <ImageBackground>
-        <Fullheight>Some Content</Fullheight>
-      </ImageBackground>
-    )
+    component: ImageBackground,
+    props: {
+      children: <Fullheight>Some Content</Fullheight>
+    }
   }
 ];
