@@ -1,6 +1,6 @@
 module.exports = {
   // webpackConfigPath: "node_modules/react-scripts-ts/config/webpack.config.dev"
-  watchDirs: ["src"],
+  // watchDirs: ["src/**/*"],
   webpack(config) {
     return {
       ...config,

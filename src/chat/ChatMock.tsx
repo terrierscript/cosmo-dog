@@ -1,7 +1,7 @@
 import { Avater } from "./Avater";
 
 import React from "react";
-import styled from "../../node_modules/styled-components";
+import styled from "styled-components";
 import { loremipsum } from "util/loremipsum";
 import { Gradient } from "background/Background";
 
