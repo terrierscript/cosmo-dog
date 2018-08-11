@@ -7,6 +7,7 @@ const Fullheight = styled.div`
 `;
 export default [
   {
+    name: "Gradient",
     component: () => (
       <Gradient>
         <Fullheight>Some Content</Fullheight>
@@ -14,6 +15,7 @@ export default [
     )
   },
   {
+    name: "ImageBackground",
     component: () => (
       <ImageBackground>
         <Fullheight>Some Content</Fullheight>
