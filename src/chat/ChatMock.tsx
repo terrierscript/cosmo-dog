@@ -3,6 +3,7 @@ import { Avater } from "./Avater";
 import React from "react";
 import styled from "../../node_modules/styled-components";
 import { loremipsum } from "util/loremipsum";
+import { Gradient } from "background/Background";
 
 type Area = "avater" | "title" | "body" | "c" | "timestamp";
 const Grid = styled.div`
@@ -14,6 +15,7 @@ const Grid = styled.div`
   background-color: white;
   padding: 1em;
   border-radius: 8px;
+  color: black;
 `;
 
 const GridItem = styled.div<{
@@ -33,19 +35,21 @@ const Body = styled.div`
 `;
 export const CardMock = () => {
   return (
-    <Grid>
-      <GridItem area="avater">
-        <Avater
-          size={60}
-          src="https://pbs.twimg.com/profile_images/966830018235064320/0p8V7WeV_400x400.jpg"
-        />
-      </GridItem>
-      <GridItem area="body">
-        <Body>{loremipsum}</Body>
-      </GridItem>
-      <GridItem area="timestamp">
-        <Timestamp>2018-08-11 16:17</Timestamp>
-      </GridItem>
-    </Grid>
+    <Gradient>
+      <Grid>
+        <GridItem area="avater">
+          <Avater
+            size={60}
+            src="https://pbs.twimg.com/profile_images/966830018235064320/0p8V7WeV_400x400.jpg"
+          />
+        </GridItem>
+        <GridItem area="body">
+          <Body>{loremipsum}</Body>
+        </GridItem>
+        <GridItem area="timestamp">
+          <Timestamp>2018-08-11 16:17</Timestamp>
+        </GridItem>
+      </Grid>
+    </Gradient>
   );
 };
