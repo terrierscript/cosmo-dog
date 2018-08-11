@@ -2,8 +2,8 @@ import * as React from "react";
 
 import { AreaMap, generateTemplateComponent } from "./generateTemplate";
 import { Gradient, White, Goodie } from "./Background";
-import { SearchInput } from "search/Search";
 import styled from "styled-components";
+import { SearchInput } from "../search/Search";
 
 type AreaKeys = "header" | "body" | "footer";
 
@@ -26,7 +26,7 @@ const CenterArea = styled(Area)`
   align-self: center;
 `;
 
-export const Main = () => {
+export const Hero = () => {
   return (
     <Gradient>
       <Layout>

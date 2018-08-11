@@ -1,6 +1,6 @@
 import { SearchInput } from "../Search";
-import { Gradient } from "../Background";
 import React from "react";
+import { Gradient } from "../../grid/Background";
 
 export default {
   component: () => {
