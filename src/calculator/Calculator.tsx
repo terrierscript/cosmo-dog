@@ -28,42 +28,62 @@ const BlackBackground = styled.div`
     rgba(70, 70, 70, 1) 100%
   );
   padding: 1em;
+  border-radius: 20px;
+  width: fit-content;
 `;
+
+const Input = styled.input`
+  font-size: 1em;
+  border-radius: 1em;
+  outline: none;
+  color: white;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5em 1em;
+  width: 100%;
+  box-sizing: border-box;
+`;
+
+const Numbers = () => (
+  <>
+    <Area area="k1">
+      <Button>1</Button>
+    </Area>
+    <Area area="k2">
+      <Button>2</Button>
+    </Area>
+    <Area area="k3">
+      <Button>3</Button>
+    </Area>
+    <Area area="k4">
+      <Button>4</Button>
+    </Area>
+    <Area area="k5">
+      <Button>5</Button>
+    </Area>
+    <Area area="k6">
+      <Button>6</Button>
+    </Area>
+    <Area area="k7">
+      <Button>7</Button>
+    </Area>
+    <Area area="k8">
+      <Button>8</Button>
+    </Area>
+    <Area area="k9">
+      <Button>9</Button>
+    </Area>
+  </>
+);
 
 export const Calcurator = () => {
   return (
     <BlackBackground>
       <Grid>
         <Area area="ii">
-          <SearchInput />
+          <Input />
         </Area>
-        <Area area="k1">
-          <Button>1</Button>
-        </Area>
-        <Area area="k2">
-          <Button>2</Button>
-        </Area>
-        <Area area="k3">
-          <Button>3</Button>
-        </Area>
-        <Area area="k4">
-          <Button>4</Button>
-        </Area>
-        <Area area="k5">
-          <Button>5</Button>
-        </Area>
-        <Area area="k6">
-          <Button>6</Button>
-        </Area>
-        <Area area="k7">
-          <Button>7</Button>
-        </Area>
-        <Area area="k8">
-          <Button>8</Button>
-        </Area>
-        <Area area="k9">
-          <Button>9</Button>
-        </Area>
+        <Numbers />
       </Grid>
     </BlackBackground>
   );
