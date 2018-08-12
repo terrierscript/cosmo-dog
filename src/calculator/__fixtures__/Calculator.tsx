@@ -1,5 +1,4 @@
-import { OrangeButton, GrayButton } from "../Button";
-import { Calcurator } from "../Calculator";
+import { SolarPanel, Calcurator, OrangeButton, GrayButton } from "../";
 import React from "react";
 
 const Buttons = () => {
@@ -12,13 +11,16 @@ const Buttons = () => {
 };
 export default [
   {
-    component: Buttons,
-    props: {
-      children: "1"
-    }
+    name: "Main",
+    component: Calcurator
   },
   {
-    component: Calcurator,
+    name: "SolarPanel",
+    component: SolarPanel
+  },
+  {
+    name: "Button",
+    component: Buttons,
     props: {
       children: "1"
     }
