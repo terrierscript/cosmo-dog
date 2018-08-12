@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import { SearchInput } from "search/Search";
-import { Button } from "./Button";
+import { OrangeButton, GrayButton } from "./Button";
 const template = `
 "ii ii ii ii"
 "ac pm pc di"
@@ -33,8 +33,8 @@ const BlackBackground = styled.div`
 `;
 
 const Input = styled.input`
-  font-size: 1em;
-  border-radius: 1em;
+  font-size: 1.5em;
+  border-radius: 0.8em;
   outline: none;
   color: white;
   border: 0px;
@@ -44,34 +44,71 @@ const Input = styled.input`
   box-sizing: border-box;
 `;
 
+const NumberButton = GrayButton;
+
 const Numbers = () => (
   <>
     <Area area="k1">
-      <Button>1</Button>
+      <NumberButton>1</NumberButton>
     </Area>
     <Area area="k2">
-      <Button>2</Button>
+      <NumberButton>2</NumberButton>
     </Area>
     <Area area="k3">
-      <Button>3</Button>
+      <NumberButton>3</NumberButton>
     </Area>
     <Area area="k4">
-      <Button>4</Button>
+      <NumberButton>4</NumberButton>
     </Area>
     <Area area="k5">
-      <Button>5</Button>
+      <NumberButton>5</NumberButton>
     </Area>
     <Area area="k6">
-      <Button>6</Button>
+      <NumberButton>6</NumberButton>
     </Area>
     <Area area="k7">
-      <Button>7</Button>
+      <NumberButton>7</NumberButton>
     </Area>
     <Area area="k8">
-      <Button>8</Button>
+      <NumberButton>8</NumberButton>
     </Area>
     <Area area="k9">
-      <Button>9</Button>
+      <NumberButton>9</NumberButton>
+    </Area>
+    <Area area="zr">
+      <NumberButton>0</NumberButton>
+    </Area>
+  </>
+);
+
+const Cal = () => (
+  <>
+    <Area area="di">
+      <OrangeButton>÷</OrangeButton>
+    </Area>
+    <Area area="pw">
+      <OrangeButton>×</OrangeButton>
+    </Area>
+    <Area area="mi">
+      <OrangeButton>-</OrangeButton>
+    </Area>
+    <Area area="pl">
+      <OrangeButton>+</OrangeButton>
+    </Area>
+    <Area area="do">
+      <NumberButton>.</NumberButton>
+    </Area>
+    <Area area="eq">
+      <OrangeButton>=</OrangeButton>
+    </Area>
+    <Area area="ac">
+      <OrangeButton>AC</OrangeButton>
+    </Area>
+    <Area area="pm">
+      <OrangeButton>+/-</OrangeButton>
+    </Area>
+    <Area area="pc">
+      <OrangeButton>%</OrangeButton>
     </Area>
   </>
 );
@@ -84,6 +121,7 @@ export const Calcurator = () => {
           <Input />
         </Area>
         <Numbers />
+        <Cal />
       </Grid>
     </BlackBackground>
   );
