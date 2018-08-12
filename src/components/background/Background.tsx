@@ -29,3 +29,10 @@ export const ImageBackground = styled.div`
   background-size: cover;
   height: 50%;
 `;
+
+export const FullSize = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;

@@ -17,6 +17,7 @@
     "ts-loader": "^4.4.2",
     "typescript": "^3.0.1",
     "url-loader": "^1.0.1",
+    "webfontloader": "^1.6.28",
     "webpack": "^4.16.5"
   },
   "scripts": {

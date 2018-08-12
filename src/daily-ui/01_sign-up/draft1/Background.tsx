@@ -3,9 +3,9 @@ import bg from "./bg.jpg";
 
 export const Background = styled.div`
   height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
-  width: 100%;
   background-image: url(${bg});
   background-size: cover;
 `;
