@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import React from "react";
-import { SearchInput } from "search/Search";
 import { OrangeButton, GrayButton } from "./Button";
+
 const template = `
+". . so so"
 "ii ii ii ii"
 "ac pm pc di"
 "k7 k8 k9 pw"
@@ -46,40 +47,42 @@ const Input = styled.input`
 
 const NumberButton = GrayButton;
 
-const Numbers = () => (
-  <>
-    <Area area="k1">
-      <NumberButton>1</NumberButton>
-    </Area>
-    <Area area="k2">
-      <NumberButton>2</NumberButton>
-    </Area>
-    <Area area="k3">
-      <NumberButton>3</NumberButton>
-    </Area>
-    <Area area="k4">
-      <NumberButton>4</NumberButton>
-    </Area>
-    <Area area="k5">
-      <NumberButton>5</NumberButton>
-    </Area>
-    <Area area="k6">
-      <NumberButton>6</NumberButton>
-    </Area>
-    <Area area="k7">
-      <NumberButton>7</NumberButton>
-    </Area>
-    <Area area="k8">
-      <NumberButton>8</NumberButton>
-    </Area>
-    <Area area="k9">
-      <NumberButton>9</NumberButton>
-    </Area>
-    <Area area="zr">
-      <NumberButton>0</NumberButton>
-    </Area>
-  </>
-);
+const Numbers = () => {
+  return (
+    <>
+      <Area area="k1">
+        <NumberButton>1</NumberButton>
+      </Area>
+      <Area area="k2">
+        <NumberButton>2</NumberButton>
+      </Area>
+      <Area area="k3">
+        <NumberButton>3</NumberButton>
+      </Area>
+      <Area area="k4">
+        <NumberButton>4</NumberButton>
+      </Area>
+      <Area area="k5">
+        <NumberButton>5</NumberButton>
+      </Area>
+      <Area area="k6">
+        <NumberButton>6</NumberButton>
+      </Area>
+      <Area area="k7">
+        <NumberButton>7</NumberButton>
+      </Area>
+      <Area area="k8">
+        <NumberButton>8</NumberButton>
+      </Area>
+      <Area area="k9">
+        <NumberButton>9</NumberButton>
+      </Area>
+      <Area area="zr">
+        <NumberButton>0</NumberButton>
+      </Area>
+    </>
+  );
+};
 
 const Cal = () => (
   <>
