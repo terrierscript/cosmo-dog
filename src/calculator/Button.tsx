@@ -56,3 +56,12 @@ export const GrayButton: React.SFC<any> = ({ children }) => {
     </GrayCircle>
   );
 };
+
+export const ButtonSamples = () => {
+  return (
+    <>
+      <OrangeButton>1</OrangeButton>
+      <GrayButton>1</GrayButton>
+    </>
+  );
+};
