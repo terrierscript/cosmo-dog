@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Gradient, ImageBackground } from "../Background";
+import { Gradient, ImageBackground } from "components/background/Background";
 import styled from "styled-components";
 
 const Fullheight = styled.div`

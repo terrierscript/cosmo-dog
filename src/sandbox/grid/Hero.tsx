@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { AreaMap, generateTemplateComponent } from "./generateTemplate";
 import styled from "styled-components";
-import { Gradient, White } from "sandbox/background/Background";
+import { Gradient, White } from "components/background/Background";
 import { SearchInput } from "../search/Search";
 
 type AreaKeys = "header" | "body" | "footer";

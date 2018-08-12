@@ -3,7 +3,7 @@ import { Avater } from "./Avater";
 import React from "react";
 import styled from "styled-components";
 import { loremipsum } from "util/loremipsum";
-import { Gradient } from "sandbox/background/Background";
+import { Gradient } from "components/background/Background";
 
 type Area = "avater" | "title" | "body" | "c" | "timestamp";
 const Grid = styled.div`
