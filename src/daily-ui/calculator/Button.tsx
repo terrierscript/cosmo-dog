@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import React from "react";
-import { White } from "background/Background";
 
 // import wrapDisplayName from "recompose/wrapDisplayName";
 

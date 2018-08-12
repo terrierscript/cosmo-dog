@@ -1,6 +1,6 @@
 import { SearchInput } from "../Search";
 import React from "react";
-import { Gradient } from "background/Background";
+import { Gradient } from "sandbox/background/Background";
 
 const Search = () => (
   <Gradient>

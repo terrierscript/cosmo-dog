@@ -1,9 +1,9 @@
 import * as React from "react";
 
 import { AreaMap, generateTemplateComponent } from "./generateTemplate";
-import { Gradient, White } from "background/Background";
 import styled from "styled-components";
-import { SearchInput } from "search/Search";
+import { Gradient, White } from "sandbox/background/Background";
+import { SearchInput } from "../search/Search";
 
 type AreaKeys = "header" | "body" | "footer";
 
