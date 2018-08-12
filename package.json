@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "cosmos",
-    "build": "cosmos-export"
+    "build": "cosmos-export; ls cosmos-export"
   },
   "devDependencies": {
     "react-cosmos": "^4.6.4"
