@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from "react";
+import { Gradient } from "components/background/Background";
 
 export const SearchInput = styled.input`
   font-size: 1em;
@@ -9,3 +11,9 @@ export const SearchInput = styled.input`
   background-color: rgba(255, 255, 255, 0.5);
   padding: 0.5em 1em;
 `;
+
+export const SearchInputMock = () => (
+  <Gradient>
+    <SearchInput />
+  </Gradient>
+);
