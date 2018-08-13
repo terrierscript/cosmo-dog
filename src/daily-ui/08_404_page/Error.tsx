@@ -4,6 +4,7 @@ import img500 from "./500.jpg";
 import { ImageBackground } from "components/background/Background";
 import styled from "styled-components";
 import { Reset } from "components/style/reset";
+import { mediaMobile } from "components/style/responsive";
 
 const impactFont = `'Averia Serif Libre', cursive;`;
 const Background = styled.div`
@@ -17,11 +18,22 @@ const template = `
 ". n h ." max-content
 ". . . ."
 `;
+const mobileTemplate = `
+". . . " 
+". c . " 
+". m . " 
+". n . " 
+". h . "
+`;
 
 const Grid = styled.div`
   display: grid;
   height: 100vh;
   grid-template: ${template};
+  ${mediaMobile`
+    grid-template: ${mobileTemplate};
+    
+  `};
   grid-row-gap: 1em;
   color: hsl(2, 5%, 70%);
   a {
@@ -36,6 +48,9 @@ const Code = styled.div`
   font-family: ${impactFont};
   grid-area: c;
   font-size: 300px;
+  ${mediaMobile`
+    font-size: 100px;
+  `};
   line-height: 1em;
   /* font-weight: bold; */
   color: hsla(2, 5%, 100%, 0.6);
@@ -51,6 +66,10 @@ const Help = styled.div`
   grid-area: h;
   font-size: 1.2em;
   text-align: right;
+  ${mediaMobile`
+    text-align: left;
+  `};
+
   a {
     font-weight: bold;
   }
