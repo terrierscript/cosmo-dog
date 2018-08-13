@@ -34,6 +34,7 @@ export const ImageBackground = styled.div<{ img: string }>`
   background-image: ${({ img }) => `url(${img})`};
   background-size: cover;
   height: 100%;
+  background-position: center;
 `;
 
 export const FullSize = styled.div`

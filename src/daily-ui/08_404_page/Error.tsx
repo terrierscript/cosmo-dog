@@ -2,7 +2,7 @@ import React, { SFC } from "react";
 import img400 from "./400.jpg";
 import img500 from "./500.jpg";
 import { ImageBackground } from "components/background/Background";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Reset } from "components/style/reset";
 import { mediaMobile } from "components/style/responsive";
 
@@ -10,6 +10,10 @@ const impactFont = `'Averia Serif Libre', cursive;`;
 const Background = styled.div`
   /* filter: blur(3px); */
   background: hsla(0, 0%, 0%, 0.64);
+`;
+
+const ImgBackground = styled(ImageBackground)`
+  background-position: center;
 `;
 const template = `
 ". . . ." 
@@ -88,7 +92,7 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
         rel="stylesheet"
       />
 
-      <ImageBackground img={img}>
+      <ImgBackground img={img}>
         <Background>
           <Grid>
             <Code>{code}</Code>
@@ -103,7 +107,7 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
             <Message>{message}</Message>
           </Grid>
         </Background>
-      </ImageBackground>
+      </ImgBackground>
     </div>
   );
 };
