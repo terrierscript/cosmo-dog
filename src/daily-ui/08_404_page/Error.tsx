@@ -3,6 +3,7 @@ import img400 from "./400.jpg";
 import img500 from "./500.jpg";
 import { ImageBackground } from "components/background/Background";
 import styled from "styled-components";
+import { Reset } from "components/style/reset";
 
 const impactFont = `'Averia Serif Libre', cursive;`;
 const Background = styled.div`
