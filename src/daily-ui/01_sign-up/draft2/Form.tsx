@@ -11,18 +11,13 @@ const Button = styled.button`
     rgba(107, 94, 181, 1) 100%
   ); */
   background: rgba(92, 80, 163, 1);
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: white;
   border: 0 none;
   border-radius: 1em;
   padding: 0.5em 2em;
   cursor: pointer;
   transition: transform 0.2s;
-
-  /* :hover {
-    transform: translateY(-5px);
-    transition: transform 0.2s;
-  } */
   :active {
     transform: translateY(5px);
     transition: transform 0.2s;
@@ -47,7 +42,7 @@ const Row = styled.div`
   padding: 0.5em;
 `;
 const RowSubmit = styled(Row)`
-  padding-top: 3em
+  padding-top: 2em
   align-self: flex-end;
 `;
 
@@ -70,6 +65,13 @@ const FormInner = styled.div`
   padding: 16px;
 `;
 
+const Forgot = styled.a`
+  display: block;
+  padding-top: 0.5em;
+  text-align: center;
+  color: #999;
+`;
+
 export const Form = () => {
   return (
     <FormInner>
@@ -87,7 +89,7 @@ export const Form = () => {
         </Row>
         <RowSubmit>
           <Button>Sign In</Button>
-          {/* <a href="#">forgot password?</a> */}
+          <Forgot href="#">Forgot password?</Forgot>
         </RowSubmit>
       </FormBox>
     </FormInner>
