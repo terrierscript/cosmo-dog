@@ -4,6 +4,7 @@ import img500 from "./500.jpg";
 import { ImageBackground } from "components/background/Background";
 import styled from "styled-components";
 
+const impactFont = `'Averia Serif Libre', cursive;`;
 const Background = styled.div`
   /* filter: blur(3px); */
   background: hsla(0, 0%, 0%, 0.64);
@@ -31,22 +32,24 @@ const Inner = styled.div`
   grid-area: n;
 `;
 const Code = styled.div`
-  font-family: "Short Stack", cursive;
+  font-family: ${impactFont};
   grid-area: c;
-  font-size: 250px;
+  font-size: 300px;
   line-height: 1em;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: hsla(2, 5%, 100%, 0.6);
   /* border-top: 1px solid white; */
 `;
 const Message = styled.div`
-  font-family: "Short Stack", cursive;
+  font-family: ${impactFont};
   grid-area: m;
   font-size: 2em;
   color: hsl(2, 5%, 100%);
 `;
 const Help = styled.div`
   grid-area: h;
+  font-size: 1.2em;
+  text-align: right;
   a {
     font-weight: bold;
   }
@@ -61,7 +64,7 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
   return (
     <div>
       <link
-        href="https://fonts.googleapis.com/css?family=Short+Stack"
+        href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre"
         rel="stylesheet"
       />
 
@@ -85,25 +88,32 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
   );
 };
 
+const Ul = styled.ul`
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  margin-left: 1em;
+`;
+
 export const Error404 = () => {
   return (
     <ErrorPage code={404} img={img400} message="Not found">
-      <ul>
+      <Ul>
         <li>Please check URL.</li>
         <li>
           <a href="#">Go back to home</a> if you want.
         </li>
-      </ul>
+      </Ul>
     </ErrorPage>
   );
 };
 export const Error500 = () => {
   return (
     <ErrorPage code={500} img={img500} message="Internal Server Error">
-      <ul>
+      <Ul>
         <li>Sorry, something wrong.</li>
         <li>Try again in 30 minutes.</li>
-      </ul>
+      </Ul>
     </ErrorPage>
   );
 };
