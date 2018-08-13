@@ -49,7 +49,7 @@ const Code = styled.div`
   grid-area: c;
   font-size: 300px;
   ${mediaMobile`
-    font-size: 100px;
+    font-size: 50vw;
   `};
   line-height: 1em;
   /* font-weight: bold; */
