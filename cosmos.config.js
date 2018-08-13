@@ -1,7 +1,7 @@
 module.exports = {
   // webpackConfigPath: "node_modules/react-scripts-ts/config/webpack.config.dev"
   // watchDirs: ["src/**/*"],
-  globalImports: ["./src/cosmos/rest.ts"],
+  globalImports: ["./src/cosmos/reset.js"],
 
   webpack(config) {
     return {
@@ -16,7 +16,7 @@ module.exports = {
           { test: /\.tsx?$/, loader: "ts-loader" },
           {
             test: /\.(jpg|jpeg|png|gif)$/,
-            loader: ["url-loader"]
+            loader: ["file-loader"]
           }
         ]
       }
