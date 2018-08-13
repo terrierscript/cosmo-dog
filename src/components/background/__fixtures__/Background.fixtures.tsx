@@ -1,5 +1,8 @@
 import * as React from "react";
-import { Gradient, ImageBackground } from "components/background/Background";
+import {
+  Gradient,
+  SampleImageBackground
+} from "components/background/Background";
 import styled from "styled-components";
 
 const Fullheight = styled.div`
@@ -17,7 +20,7 @@ export default [
   },
   {
     name: "ImageBackground",
-    component: ImageBackground,
+    component: SampleImageBackground,
     props: {
       children: <Fullheight>Some Content</Fullheight>
     }
