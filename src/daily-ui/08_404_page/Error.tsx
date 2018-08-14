@@ -12,9 +12,6 @@ const Background = styled.div`
   background: hsla(0, 0%, 0%, 0.64);
 `;
 
-const ImgBackground = styled(ImageBackground)`
-  background-position: center;
-`;
 const template = `
 ". . . ." 
 ". c . ." 
@@ -85,14 +82,10 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
   message,
   children
 }) => {
-  return (
-    <div>
-      <link
-        href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre"
-        rel="stylesheet"
-      />
+  return <div>
+      <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet" />
 
-      <ImgBackground img={img}>
+      <ImageBackground img={img}>
         <Background>
           <Grid>
             <Code>{code}</Code>
@@ -107,9 +100,8 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
             <Message>{message}</Message>
           </Grid>
         </Background>
-      </ImgBackground>
-    </div>
-  );
+      </ImageBackground>
+    </div>;
 };
 
 const Ul = styled.ul`
