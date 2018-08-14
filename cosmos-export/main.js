@@ -33516,32 +33516,34 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var styled_components_1 = __importDefault(__webpack_require__(1));
 var react_1 = __importDefault(__webpack_require__(0));
 var template = "\n  \"s1 s1 s4 s4 s3 s3 s9 s9 s2 s2\"\n  \"s1 s1 s4 s4 s3 s3 s9 s9 s2 s2\"\n  \"s1 s1 s8 s8 s3 s3 s5 s5 s2 s2\"\n  \"s1 s1 s8 s8 s3 s3 s5 s5 s2 s2\"\n  \"s7 s7 s7 s7 s7 s6 s6 s6 s6 s6\"\n  \"s7 s7 s7 s7 s7 s6 s6 s6 s6 s6\"\n";
-var Grid = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  display: grid;\n  grid-template: ", ";\n  grid-auto-rows: 80em;\n  /* grid-auto-columns: 80px; */\n  grid-gap: 0.5em;\n"], ["\n  display: grid;\n  grid-template: ", ";\n  grid-auto-rows: 80em;\n  /* grid-auto-columns: 80px; */\n  grid-gap: 0.5em;\n"])), template);
+var Grid = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  display: grid;\n  grid-template: ", ";\n  grid-auto-rows: 80em;\n  /* grid-auto-columns: 80px; */\n  grid-gap: 0.5em;\n  box-sizing: border-box;\n"], ["\n  display: grid;\n  grid-template: ", ";\n  grid-auto-rows: 80em;\n  /* grid-auto-columns: 80px; */\n  grid-gap: 0.5em;\n  box-sizing: border-box;\n"])), template);
 var Canvas = styled_components_1.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  background: white;\n  border: 1px solid black;\n  min-height: 5em;\n  min-width: 5em;\n  padding: 1em;\n"], ["\n  background: white;\n  border: 1px solid black;\n  min-height: 5em;\n  min-width: 5em;\n  padding: 1em;\n"])));
+var Edit = styled_components_1.default.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  height: 50%;\n"], ["\n  height: 50%;\n"])));
+var Title = styled_components_1.default.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  color: #333;\n  font-weight: bold;\n  padding: 0.5em 0;\n"], ["\n  color: #333;\n  font-weight: bold;\n  padding: 0.5em 0;\n"])));
 var Areas = function () {
     var areas = [
-        { area: "s1", name: "課題" },
-        { area: "s2", name: "顧客セグメント" },
-        { area: "s3", name: "独自の価値提案" },
-        { area: "s4", name: "ソリューション" },
-        { area: "s5", name: "チャネル" },
-        { area: "s6", name: "収入の流れ" },
-        { area: "s7", name: "コスト構造" },
-        { area: "s8", name: "主要指標" },
-        { area: "s9", name: "圧倒的な優位性" }
+        { area: "s1", name: "1.課題" },
+        { area: "s2", name: "2.顧客セグメント" },
+        { area: "s3", name: "3.独自の価値提案" },
+        { area: "s4", name: "4.ソリューション" },
+        { area: "s5", name: "5.チャネル" },
+        { area: "s6", name: "6.収入の流れ" },
+        { area: "s7", name: "7.コスト構造" },
+        { area: "s8", name: "8.主要指標" },
+        { area: "s9", name: "9.圧倒的な優位性" }
     ];
     return (react_1.default.createElement(react_1.default.Fragment, null, areas.map(function (_a) {
         var area = _a.area, name = _a.name;
         return (react_1.default.createElement(Canvas, { style: { gridArea: area } },
-            name,
-            react_1.default.createElement("div", { contentEditable: true })));
+            react_1.default.createElement(Title, null, name),
+            react_1.default.createElement(Edit, { contentEditable: true })));
     })));
 };
 exports.LearnCampus = function () {
     return (react_1.default.createElement(Grid, null,
         react_1.default.createElement(Areas, null)));
 };
-var templateObject_1, templateObject_2;
+var templateObject_1, templateObject_2, templateObject_3, templateObject_4;
 
 
 /***/ }),
