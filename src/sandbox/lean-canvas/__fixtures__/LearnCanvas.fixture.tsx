@@ -1,4 +1,4 @@
-import { LearnCampus } from "../LearnCampus";
+import { LearnCampus } from "../LeanCanvas";
 
 export default {
   component: LearnCampus
