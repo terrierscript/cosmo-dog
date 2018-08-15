@@ -3,6 +3,12 @@ import styled from "styled-components";
 // @ts-ignore
 import bg from "./bg.jpg";
 
+export const FlexCenter = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 export const Gradient = styled.div`
   background: linear-gradient(
     90deg,

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import { OrangeButton, GrayButton } from "./Button";
+import { Gradient, FlexCenter } from "components/background/Background";
 
 const template = `
 ". . so so"
@@ -31,10 +32,11 @@ const BlackBackground = styled.div`
   padding: 1em;
   border-radius: 20px;
   width: fit-content;
+  height: max-content;
 `;
 
 const Input = styled.input`
-  font-size: 1.5em;
+  font-size: 1.8em;
   border-radius: 0.8em;
   outline: none;
   color: white;
@@ -116,17 +118,34 @@ const Cal = () => (
   </>
 );
 
+const Container = styled(FlexCenter)`
+  height: 100vh;
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+
+  background: linear-gradient(
+    90deg,
+    rgba(100, 130, 200, 1) 0%,
+    rgba(162, 165, 194, 1) 100%
+  );
+`;
 export const Calcurator = () => {
   return (
-    <BlackBackground>
-      <Grid>
-        <Area area="ii">
-          <Input />
-        </Area>
-        {/* <SolarPanel /> */}
-        <Numbers />
-        <Cal />
-      </Grid>
-    </BlackBackground>
+    <Container>
+      <link
+        href="https://fonts.googleapis.com/css?family=Quicksand"
+        rel="stylesheet"
+      />
+      <BlackBackground>
+        <Grid>
+          <Area area="ii">
+            <Input />
+          </Area>
+          {/* <SolarPanel /> */}
+          <Numbers />
+          <Cal />
+        </Grid>
+      </BlackBackground>
+    </Container>
   );
 };
