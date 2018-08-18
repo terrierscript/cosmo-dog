@@ -2,8 +2,7 @@ import React, { SFC } from "react";
 import img400 from "./400.jpg";
 import img500 from "./500.jpg";
 import { ImageBackground } from "components/background/Background";
-import styled, { css } from "styled-components";
-import { Reset } from "components/style/reset";
+import styled from "styled-components";
 import { mediaMobile } from "components/style/responsive";
 
 const impactFont = `'Averia Serif Libre', cursive;`;
@@ -82,8 +81,12 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
   message,
   children
 }) => {
-  return <div>
-      <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet" />
+  return (
+    <div>
+      <link
+        href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre"
+        rel="stylesheet"
+      />
 
       <ImageBackground img={img}>
         <Background>
@@ -101,7 +104,8 @@ const ErrorPage: SFC<{ code: number; img: string; message: string }> = ({
           </Grid>
         </Background>
       </ImageBackground>
-    </div>;
+    </div>
+  );
 };
 
 const Ul = styled.ul`
