@@ -35,7 +35,7 @@ const Title = styled.div`
   padding: 0.5em 0;
 `;
 
-const Areas = () => {
+const Areas = ({ canvasItem }) => {
   const areas = [
     { area: "s1", name: "1.課題" },
     { area: "s2", name: "2.顧客セグメント" },
@@ -49,21 +49,21 @@ const Areas = () => {
   ];
   return (
     <>
-      {areas.map(({ area, name }) => {
+      {areas.map(({ area, name }, i) => {
         return (
-          <Canvas style={{ gridArea: area }}>
+          <Canvas style={{ gridArea: area }} key={i}>
             <Title>{name}</Title>
-            <Edit contentEditable />
+            <Edit contentEditable>{canvasItem[i]}</Edit>
           </Canvas>
         );
       })}
     </>
   );
 };
-export const LearnCampus = () => {
+export const LearnCampus = (props) => {
   return (
     <Grid>
-      <Areas />
+      <Areas {...props} />
     </Grid>
   );
 };

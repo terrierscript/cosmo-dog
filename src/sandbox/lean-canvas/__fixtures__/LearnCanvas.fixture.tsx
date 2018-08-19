@@ -1,5 +1,8 @@
 import { LearnCampus } from "../LeanCanvas";
 
 export default {
-  component: LearnCampus
+  component: LearnCampus,
+  props: {
+    canvasItem: []
+  }
 };
