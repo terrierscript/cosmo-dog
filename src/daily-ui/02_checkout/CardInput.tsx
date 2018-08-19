@@ -6,6 +6,7 @@ const Input = styled.input`
   /* line-height: em; */
   padding: 0.5em;
   font-size: 1.2em;
+  color: hsl(0, 0%, 45%);
 `;
 
 const chunk = (input, size) => {
@@ -24,23 +25,20 @@ export class CardInput extends React.Component<
   sanitizeNumber(number) {
     const num = chunk(number.split(""), 4)
       .map(item => item.join(""))
-      .join("-");
-    console.log(num);
+      .join(" ");
     this.setState({ sanitized: num });
   }
   handleChange = e => {
-    this.sanitizeNumber(e.target.value);
+    const unchunked =  e.target.value.split(" ").join("")
+    this.sanitizeNumber(unchunked);
   };
   componentDidMount() {
     this.sanitizeNumber(this.props.number);
   }
   render() {
-    const { number } = this.props;
+    const { sanitized } = this.state;
     return (
-      <div>
-        <Input type="tel" defaultValue={number} onChange={this.handleChange} />
-        {this.state.sanitized}
-      </div>
+        <Input type="tel" value={sanitized} onChange={this.handleChange} />
     );
   }
 }

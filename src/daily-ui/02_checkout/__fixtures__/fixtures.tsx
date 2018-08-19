@@ -8,6 +8,6 @@ export default [
   },
   {
     component: CardInput,
-    props: { number: "1111111111111111" }
+    props: { number: "1234567890123456" }
   }
 ];
