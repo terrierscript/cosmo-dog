@@ -10,9 +10,9 @@ const Input = styled.input`
   color: hsl(0, 0%, 45%);
 `;
 
-export const CardInput = () => {
+export const CardInput = props => {
   return (
-    <InputMask mask="9999 9999 9999 9999" maskChar={null}>
+    <InputMask mask="9999 9999 9999 9999" maskChar={null} value={props.number}>
       {inputProps => <Input {...inputProps} />}
     </InputMask>
   );
