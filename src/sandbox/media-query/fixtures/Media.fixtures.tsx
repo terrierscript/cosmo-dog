@@ -1,7 +1,11 @@
-import { Media } from "../Media";
+import { MediaStyle } from "../MediaStyle";
+import { MediaComponent } from "../MediaComponent";
 
 export default [
   {
-    component: Media
+    component: MediaStyle
+  },
+  {
+    component: MediaComponent
   }
 ];

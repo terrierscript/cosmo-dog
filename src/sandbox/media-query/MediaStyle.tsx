@@ -1,9 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import media from "styled-media-query";
-import { withResponsive } from "components/style/responsive";
-
-export const mediaMobile = media.lessThan("medium");
+import { withMediaStyle } from "components/style/responsive";
 
 const BaseItem = styled.div`
   color: red;
@@ -13,12 +10,13 @@ const spExtend = css`
   color: blue;
 `;
 
-const SomeItem = withResponsive(BaseItem, spExtend);
+const SomeItem = withMediaStyle(BaseItem, spExtend);
 
 const SpSomeItem = styled.div`
   ${spExtend};
 `;
-export const Media = () => {
+
+export const MediaStyle = () => {
   return (
     <div>
       <SomeItem>aaa</SomeItem>

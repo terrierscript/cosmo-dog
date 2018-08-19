@@ -4,7 +4,7 @@ import Media from "react-media";
 import React from "react";
 export const mediaMobile = mediaQuery.lessThan("medium");
 
-export const withResponsive = (Component, extend) => {
+export const withMediaStyle = (Component, extend) => {
   return styled(Component)`
     ${mediaMobile`
       ${extend}
@@ -12,15 +12,15 @@ export const withResponsive = (Component, extend) => {
   `;
 };
 
-export const withResponsiveComponent = (DesktopComponent, MobileComponent) => {
-  props => {
+export const withMediaComponent = (DesktopComponent, MobileComponent) => {
+  return props => {
     return (
       <Media query="(max-width: 768px)">
         {matches =>
           matches ? (
-            <DesktopComponent {...props} />
-          ) : (
             <MobileComponent {...props} />
+          ) : (
+            <DesktopComponent {...props} />
           )
         }
       </Media>
