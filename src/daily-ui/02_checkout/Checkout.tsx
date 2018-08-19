@@ -1,4 +1,4 @@
-import React, { SFC, Children, ReactNode } from "react";
+import React, { SFC, Children, ReactNode, createContext } from "react";
 
 class CardInputSanitized extends React.Component<
   { number: string; children: (string) => ReactNode },
@@ -15,3 +15,9 @@ class CardInputSanitized extends React.Component<
 export const Checkout = ({ name }) => {
   return <div>Please input your card {name}</div>;
 };
+
+type Typ = {
+  state?: { value: number };
+  actions?: { setValue: (value: number) => void };
+};
+export const { Provider, Consumer } = createContext<Typ>({});
