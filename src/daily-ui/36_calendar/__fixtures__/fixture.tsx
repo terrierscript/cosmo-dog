@@ -4,8 +4,8 @@ export default [
   {
     component: Calendar,
     props: {
-      year: 2018,
-      month: 8
+      year: 2021,
+      month: 1
     }
   }
 ];

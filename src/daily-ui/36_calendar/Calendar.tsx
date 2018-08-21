@@ -29,16 +29,25 @@ const CalDay = styled(_CalDay)`
   padding: 0.5em;
 `;
 
+const getWeekNumber = (dt: DateTime) => {
+  const isSunday = dt.weekday === 7;
+  const weekNumOffset = isSunday ? 1 : 0;
+  return dt.weekNumber + weekNumOffset;
+};
+
+const getWeekNum = (target: DateTime, current: DateTime) => {
+  // TODO 年またぎ
+  console.log(target.weekNumber, current.weekNumber);
+  return getWeekNumber(current) - getWeekNumber(target);
+};
 const getMonthDate = (year, month) => {
   const firstDay = DateTime.local(year, month, 1);
   return Array.from({ length: firstDay.daysInMonth }, (_, day) => {
     const cursor = firstDay.plus({ days: day });
-    const isSunday = cursor.weekday === 7;
-    const weekNumOffset = isSunday ? 1 : 0;
     return {
       day: cursor.day,
       weekDay: cursor.weekday % 7,
-      weekNum: cursor.weekNumber - firstDay.weekNumber + weekNumOffset
+      weekNum: getWeekNum(firstDay, cursor)
     };
   });
 };
