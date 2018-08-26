@@ -1,13 +1,6 @@
 import styled from "styled-components";
 import { DateTime } from "luxon";
-
-export const getMonthDate = (year, month) => {
-  const firstDay = DateTime.local(year, month, 1);
-  return Array.from({ length: firstDay.daysInMonth }, (_, day) => {
-    const currDay = firstDay.plus({ days: day });
-    return currDay;
-  });
-};
+import { getMonthDate } from "./getMonthDate";
 
 const generateCalendarMap = (year, month) => {
   const days = getMonthDate(year, month);

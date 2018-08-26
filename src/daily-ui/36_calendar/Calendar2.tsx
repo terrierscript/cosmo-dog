@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { DateTime } from "luxon";
 import styled from "styled-components";
 import { Area } from "components/grid/Grid";
-import { CalendarGrid, getMonthDate } from "./CalendarGrid";
+import { CalendarGrid } from "./CalendarGrid";
+import { getMonthDate } from "./getMonthDate";
 
 type CalendarProps = {
   year: number;
