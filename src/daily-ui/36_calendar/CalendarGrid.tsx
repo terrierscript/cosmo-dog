@@ -12,13 +12,16 @@ const generateCalendarMap = (year, month) => {
     return [...curr.slice(0, -1), newItem];
   }, []);
 };
-export const generateCalendarTemplate = (year, month) => {
+
+export const generateCalendarTemplate = (year, month, prefix = "day") => {
   const calendar = generateCalendarMap(year, month);
   const filled = calendar.map((item, i, arr) => {
     if (i === 0) {
+      // first
       return [...Array.from({ length: 7 - item.length }), ...item];
     }
-    if (arr.length - 1 === i) {
+    if (i === arr.length - 1) {
+      // last
       return [...item, ...Array.from({ length: 7 - item.length })];
     }
     return item;
@@ -26,16 +29,11 @@ export const generateCalendarTemplate = (year, month) => {
 
   return filled
     .map((week) => {
-      const days = week
-        .map((day?: DateTime) => {
-          if (!day) {
-            return ".";
-          }
-          return `day-${day.day}`;
-        })
+      return week
+        .map((day?: DateTime) => (!!day ? `${prefix}-${day.day}` : "."))
         .join(" ");
-      return `"${days}"`;
     })
+    .map((days) => `"${days}"`)
     .join("\n");
 };
 
