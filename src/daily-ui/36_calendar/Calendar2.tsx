@@ -62,7 +62,7 @@ const _Grid = styled.div<{ year: number; month: number }>`
   grid-template: ${({ year, month }) => generateCalendarTemplate(year, month)};
 `;
 
-const Grid = styled(_Grid)`
+const CalendarGrid = styled(_Grid)`
   grid-auto-columns: min-content;
   grid-auto-rows: min-content;
   background: #ccc;
@@ -121,9 +121,9 @@ export class Calendar2 extends Component<CalendarProps, CalendarProps> {
         <div>
           {this.state.year}/{this.state.month}
         </div>
-        <Grid year={this.state.year} month={this.state.month}>
+        <CalendarGrid year={this.state.year} month={this.state.month}>
           <Days {...this.state} />
-        </Grid>
+        </CalendarGrid>
       </div>
     );
   }
