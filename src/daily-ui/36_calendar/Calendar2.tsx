@@ -70,9 +70,8 @@ const Days = ({ year, month }) => {
     <>
       {getMonthDate(year, month).map((dt, i) => {
         return (
-          <CalDay weekDay={weekDay} weekNum={weekNum} key={i}>
-            <div>{areaName(weekDay, weekNum)}</div>
-            <div>{day}</div>
+          <CalDay area={`day-${dt.day}`} key={i}>
+            <div>{dt.day}</div>
           </CalDay>
         );
       })}
