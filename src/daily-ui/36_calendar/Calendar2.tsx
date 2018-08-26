@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { DateTime } from "luxon";
 import styled from "styled-components";
+import { Area } from "components/grid/Grid";
 
 type CalendarProps = {
   year: number;
@@ -56,13 +57,23 @@ const generateCalendarTemplate = (year, month) => {
     .join("\n");
 };
 
-const Grid = styled.div<{ template: string }>`
+const _Grid = styled.div<{ year: number; month: number }>`
   display: grid;
-  grid-template: ${({ template }) => template};
+  grid-template: ${({ year, month }) => generateCalendarTemplate(year, month)};
 `;
 
-const CalDay = styled.div<{ area: string }>`
-  grid-area: ${({ area }) => area};
+const Grid = styled(_Grid)`
+  grid-auto-columns: min-content;
+  grid-auto-rows: min-content;
+  background: #ccc;
+`;
+
+const DayItem = styled.div`
+  text-align: center;
+  vertical-align: middle;
+  height: 3em;
+  line-height: 3em;
+  width: 3em;
 `;
 
 const Days = ({ year, month }) => {
@@ -70,9 +81,9 @@ const Days = ({ year, month }) => {
     <>
       {getMonthDate(year, month).map((dt, i) => {
         return (
-          <CalDay area={`day-${dt.day}`} key={i}>
-            <div>{dt.day}</div>
-          </CalDay>
+          <Area area={`day-${dt.day}`} key={i}>
+            <DayItem>{dt.day}</DayItem>
+          </Area>
         );
       })}
     </>
@@ -103,11 +114,6 @@ export class Calendar2 extends Component<CalendarProps, CalendarProps> {
     });
   };
   render() {
-    const template = generateCalendarTemplate(
-      this.state.year,
-      this.state.month
-    );
-    console.log(template);
     return (
       <div>
         <button onClick={this.handlePrev}>prev</button>
@@ -115,7 +121,7 @@ export class Calendar2 extends Component<CalendarProps, CalendarProps> {
         <div>
           {this.state.year}/{this.state.month}
         </div>
-        <Grid template={template}>
+        <Grid year={this.state.year} month={this.state.month}>
           <Days {...this.state} />
         </Grid>
       </div>
