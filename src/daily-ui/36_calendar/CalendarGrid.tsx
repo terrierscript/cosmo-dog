@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { DateTime } from "luxon";
 import { getMonthDate } from "./getMonthDate";
 
-const generateCalendarMap = (year, month) => {
+const generateCalendarMap = (year, month, startWeekday = 7) => {
   const days = getMonthDate(year, month);
   return days.reduce((curr: any[][], day, i) => {
-    if (day.weekday % 7 === 0 || i === 0) {
+    if (day.weekday % startWeekday === 0 || i === 0) {
       return [...curr, [day]];
     }
     const newItem = [...curr.slice(-1)[0], day];
