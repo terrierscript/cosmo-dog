@@ -1,31 +1,9 @@
 import styled from "styled-components";
 import { DateTime } from "luxon";
-import { getMonthDate } from "./getMonthDate";
-
-const generateCalendarMap = (year, month, startWeekday = 7) => {
-  const days = getMonthDate(year, month);
-  return days.reduce((curr: any[][], day, i) => {
-    if (day.weekday % startWeekday === 0 || i === 0) {
-      return [...curr, [day]];
-    }
-    const newItem = [...curr.slice(-1)[0], day];
-    return [...curr.slice(0, -1), newItem];
-  }, []);
-};
+import { generateFilledCalendar } from "./getMonthDate";
 
 export const generateCalendarTemplate = (year, month, prefix = "day") => {
-  const calendar = generateCalendarMap(year, month);
-  const filled = calendar.map((item, i, arr) => {
-    if (i === 0) {
-      // first
-      return [...Array.from({ length: 7 - item.length }), ...item];
-    }
-    if (i === arr.length - 1) {
-      // last
-      return [...item, ...Array.from({ length: 7 - item.length })];
-    }
-    return item;
-  });
+  const filled = generateFilledCalendar(year, month);
 
   return filled
     .map((week) => {
