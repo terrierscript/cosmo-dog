@@ -11,6 +11,6 @@ const Grid = styled.div`
   grid-template: ${template};
 `;
 
-export const Template = () => {
+export const Address = () => {
   return <Grid />;
 };

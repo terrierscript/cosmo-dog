@@ -1,7 +1,7 @@
-import { Template } from "../index";
+import { Address } from "../index";
 
 export default [
   {
-    component: Template
+    component: Address
   }
 ];
