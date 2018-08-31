@@ -1,5 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import React from "react";
+import { transpose } from "transpose-matrix";
+import { withMediaStyle } from "components/style/responsive";
 
 const template = `
   "s1 s1 s4 s4 s3 s3 s9 s9 s2 s2"
@@ -10,7 +12,32 @@ const template = `
   "s7 s7 s7 s7 s7 s6 s6 s6 s6 s6"
 `;
 
-const Grid = styled.div`
+const templateToArray = (template: string) => {
+  return template
+    .split("\n")
+    .map((item) => {
+      if (item.trim() === "") {
+        return null;
+      }
+      return item
+        .trim()
+        .replace(/\"/g, "")
+        .split(" ");
+    })
+    .filter((row) => !!row);
+};
+
+const arrayToTemplate = (arr: string[][]) => {
+  return arr
+    .map((row) => {
+      return `"${row.join(" ")}"`;
+    })
+    .join("\n");
+};
+
+const rotated = arrayToTemplate(transpose(templateToArray(template)));
+
+const _Grid = styled.div`
   display: grid;
   grid-template: ${template};
   grid-auto-rows: 80em;
@@ -18,6 +45,13 @@ const Grid = styled.div`
   grid-gap: 0.5em;
   box-sizing: border-box;
 `;
+
+const Grid = withMediaStyle(
+  _Grid,
+  css`
+    grid-template: ${rotated};
+  `
+);
 
 const Canvas = styled.div`
   background: white;

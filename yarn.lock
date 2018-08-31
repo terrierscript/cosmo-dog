@@ -5872,6 +5872,10 @@ toposort@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.7.tgz#2e68442d9f64ec720b8cc89e6443ac6caa950029"
 
+transpose-matrix@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/transpose-matrix/-/transpose-matrix-1.2.0.tgz#7cc8a6336b267586c85bd5a96c7ff11a048d13a1"
+
 traverse@^0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
