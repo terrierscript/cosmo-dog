@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import React from "react";
 import { transpose } from "transpose-matrix";
 import { withMediaStyle } from "components/style/responsive";
+import { arrayToTemplate, templateToArray } from "components/grid/array";
 
 const template = `
   "s1 s1 s4 s4 s3 s3 s9 s9 s2 s2"
@@ -12,37 +13,13 @@ const template = `
   "s7 s7 s7 s7 s7 s6 s6 s6 s6 s6"
 `;
 
-const templateToArray = (template: string) => {
-  return template
-    .split("\n")
-    .map((item) => {
-      if (item.trim() === "") {
-        return null;
-      }
-      return item
-        .trim()
-        .replace(/\"/g, "")
-        .split(" ");
-    })
-    .filter((row) => !!row);
-};
-
-const arrayToTemplate = (arr: string[][]) => {
-  return arr
-    .map((row) => {
-      return `"${row.join(" ")}"`;
-    })
-    .join("\n");
-};
-
 const rotated = arrayToTemplate(transpose(templateToArray(template)));
-
 const _Grid = styled.div`
   display: grid;
   grid-template: ${template};
   grid-auto-rows: 80em;
   /* grid-auto-columns: 80px; */
-  grid-gap: 0.5em;
+  /* grid-gap: 0.5em; */
   box-sizing: border-box;
 `;
 
@@ -56,6 +33,7 @@ const Grid = withMediaStyle(
 const Canvas = styled.div`
   background: white;
   border: 1px solid black;
+  /* outline: 1px solid black; */
   min-height: 5em;
   min-width: 5em;
   padding: 1em;
