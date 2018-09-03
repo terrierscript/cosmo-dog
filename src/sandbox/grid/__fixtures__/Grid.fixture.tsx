@@ -1,10 +1,10 @@
 import { Hero } from "../Hero";
-import { AnimationSample } from "../Animation";
+import { Example } from "../Example";
 export default [
   {
     component: Hero
   },
   {
-    component: AnimationSample
+    component: Example
   }
 ];

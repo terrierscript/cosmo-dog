@@ -14,6 +14,7 @@ const template = `
 `;
 
 const rotated = arrayToTemplate(transpose(templateToArray(template)));
+
 const _Grid = styled.div`
   display: grid;
   grid-template: ${template};
