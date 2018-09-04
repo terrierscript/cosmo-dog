@@ -30,7 +30,6 @@ const Grid = styled.div`
   box-sizing: border-box;
   grid-template-columns: [time] 0.5fr [taro] 1fr [jiro] 1fr [hanako] 1fr;
   grid-template-rows: ${rowTemplate};
-  /* grid-gap: 0.2em; */
 `;
 
 const TimeArea = styled.div<{ column: string; start: string; end?: string }>`
@@ -44,6 +43,7 @@ const TimeArea = styled.div<{ column: string; start: string; end?: string }>`
 `;
 
 const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
+// 全部のエリアにborderを撒き散らす
 const Border = styled(TimeArea)`
   border-left: solid 1px #ccc;
   border-top: solid 1px #ccc;
