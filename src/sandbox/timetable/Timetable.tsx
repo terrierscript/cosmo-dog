@@ -30,7 +30,7 @@ const Grid = styled.div`
   box-sizing: border-box;
   grid-template-columns: [time] 0.5fr [taro] 1fr [jiro] 1fr [hanako] 1fr;
   grid-template-rows: ${rowTemplate};
-  grid-gap: 0.2em;
+  /* grid-gap: 0.2em; */
 `;
 
 const TimeArea = styled.div<{ column: string; start: string; end?: string }>`
@@ -43,6 +43,23 @@ const TimeArea = styled.div<{ column: string; start: string; end?: string }>`
   }};
 `;
 
+const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
+const Border = styled(TimeArea)`
+  border-left: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+`;
+const Borders = () => {
+  const elms = ["time", "taro", "jiro", "hanako"].map((column) => {
+    return rangeTimes().map((time, i) => (
+      <Border
+        column={column}
+        start={`${time.hour}${time.min}`}
+        key={`${column}-${i}`}
+      />
+    ));
+  });
+  return flatten(elms);
+};
 // @ts-ignore
 const Times: SFC<{}> = () => {
   return rangeTimes().map((time, i) => {
@@ -84,6 +101,7 @@ const Schedule: SFC<{ start: string; end: string; name: string }> = ({
 export const Timetable = () => {
   return (
     <Grid>
+      <Borders />
       <Times />
       <Schedule name="taro" start={"1030"} end={"1145"}>
         外出
