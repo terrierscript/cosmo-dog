@@ -13,6 +13,7 @@ const border = (direction, props) => {
   const width = props.width || 1;
   return `border-${direction}: solid ${width}px ${color}`;
 };
+
 const parseBorderProps = (props: Props) => {
   const borders = [
     border("top", props),
