@@ -48,12 +48,13 @@ const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
 const Border = styled(Area)`
   border-left: solid 1px #ccc;
   min-height: 3em;
-  border-top: solid 1px #ccc;
+  border-top: ${({ color = "#ccc" }) => `solid 1px ${color}`};
 `;
 const Borders = () => {
   const elms = rows.map((column) => {
     return rangeTimes().map((time, i) => (
       <Border
+        color={time.min == "00" ? "#333" : "#ccc"}
         column={column}
         rowStart={`${time.hour}${time.min}`}
         key={`${column}-${i}`}
@@ -82,7 +83,7 @@ const ScheduleBlock = styled(Area)`
   border-radius: 10px;
   font-weight: bold;
   padding: 1em;
-  margin: 0 0.5em;
+  margin: 0.1em 0.5em;
 `;
 const Schedule: SFC<{ start: string; end: string; name: string }> = ({
   start,
