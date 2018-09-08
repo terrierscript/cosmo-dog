@@ -1,10 +1,11 @@
 import React, { SFC } from "react";
 import styled from "styled-components";
-import { Area } from "components/grid/Grid";
 type Time = {
   hour: string;
   min: string;
 };
+const members = ["taro", "jiro", "hanako"];
+const rows = ["time"].concat(members);
 const rangeTimes = (start = 10, hours = 6): Time[] => {
   return Array.from({ length: hours * 4 + 1 }, (_, i) => {
     // TODO: more clean
@@ -20,8 +21,8 @@ const rangeTimes = (start = 10, hours = 6): Time[] => {
 const times = rangeTimes();
 
 // [t-1000] 1fr [t-1015] 1fr [t-1030] 1fr [t-1045] 1fr [t-1100] 1fr [t-1115] 1fr [t-1130] ..
-const rowTemplate = times
-  .map((time) => `[t-${time.hour}${time.min}]`)
+const rowTemplate = ["[t-header]"]
+  .concat(times.map((time) => `[t-${time.hour}${time.min}]`))
   .join(" 1fr ");
 
 const Grid = styled.div`
@@ -32,28 +33,29 @@ const Grid = styled.div`
   grid-template-rows: ${rowTemplate};
 `;
 
-const TimeArea = styled.div<{ column: string; start: string; end?: string }>`
+const Area = styled.div<{ column: string; rowStart: string; rowEnd?: string }>`
   grid-column: ${({ column }) => column};
-  grid-row: ${({ start, end }) => {
-    if (end) {
-      return `t-${start} / t-${end}`;
+  grid-row: ${({ rowStart, rowEnd }) => {
+    if (rowEnd) {
+      return `t-${rowStart} / t-${rowEnd}`;
     }
-    return `t-${start}`;
+    return `t-${rowStart}`;
   }};
 `;
 
 const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
 // 全部のエリアにborderを撒き散らす
-const Border = styled(TimeArea)`
+const Border = styled(Area)`
   border-left: solid 1px #ccc;
+  min-height: 3em;
   border-top: solid 1px #ccc;
 `;
 const Borders = () => {
-  const elms = ["time", "taro", "jiro", "hanako"].map((column) => {
+  const elms = rows.map((column) => {
     return rangeTimes().map((time, i) => (
       <Border
         column={column}
-        start={`${time.hour}${time.min}`}
+        rowStart={`${time.hour}${time.min}`}
         key={`${column}-${i}`}
       />
     ));
@@ -64,21 +66,23 @@ const Borders = () => {
 const Times: SFC<{}> = () => {
   return rangeTimes().map((time, i) => {
     return (
-      <TimeArea
-        start={`${time.hour}${time.min}`}
+      <Area
+        rowStart={`${time.hour}${time.min}`}
         column={"time"}
         key={i.toString()}
       >
         {time.hour}:{time.min}
-      </TimeArea>
+      </Area>
     );
   });
 };
-const ScheduleBlock = styled(TimeArea)`
-  background: #bcd6ff;
+const ScheduleBlock = styled(Area)`
+  background: #429bf4;
   /* border: 1px solid #2b293f; */
   border-radius: 10px;
+  font-weight: bold;
   padding: 1em;
+  margin: 0 0.5em;
 `;
 const Schedule: SFC<{ start: string; end: string; name: string }> = ({
   start,
@@ -88,7 +92,7 @@ const Schedule: SFC<{ start: string; end: string; name: string }> = ({
 }) => {
   const time = `${start.substr(0, 2)}:${start.substr(2, 4)}`;
   return (
-    <ScheduleBlock start={start} end={end} column={name}>
+    <ScheduleBlock rowStart={start} rowEnd={end} column={name}>
       <div>{time}</div>
       <div>
         [{name}
@@ -98,11 +102,31 @@ const Schedule: SFC<{ start: string; end: string; name: string }> = ({
   );
 };
 
+const HeaderCell = styled(Area)`
+  text-align: center;
+  height: 100%;
+`;
+const Headers = () => {
+  return (
+    <>
+      {members.map((member) => {
+        return (
+          <HeaderCell column={member} rowStart={"header"}>
+            {member}
+          </HeaderCell>
+        );
+      })}
+    </>
+  );
+};
+
 export const Timetable = () => {
   return (
     <Grid>
       <Borders />
       <Times />
+      <Headers />
+
       <Schedule name="taro" start={"1030"} end={"1145"}>
         外出
       </Schedule>
