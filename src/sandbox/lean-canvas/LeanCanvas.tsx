@@ -14,20 +14,33 @@ const template = `
 `;
 
 const rotated = arrayToTemplate(transpose(templateToArray(template)));
+console.log(rotated);
+
+const rotate = `
+  "s1 s1 s1 s1 s7 s7"
+  "s1 s1 s1 s1 s7 s7"
+  "s4 s4 s8 s8 s7 s7"
+  "s4 s4 s8 s8 s7 s7"
+  "s3 s3 s3 s3 s7 s7"
+  "s3 s3 s3 s3 s6 s6"
+  "s9 s9 s5 s5 s6 s6"
+  "s9 s9 s5 s5 s6 s6"
+  "s2 s2 s2 s2 s6 s6"
+  "s2 s2 s2 s2 s6 s6"
+`;
 
 const _Grid = styled.div`
   display: grid;
   grid-template: ${template};
   grid-auto-rows: 80em;
-  /* grid-auto-columns: 80px; */
-  /* grid-gap: 0.5em; */
+  /* grid-gap: 1em; */
   box-sizing: border-box;
 `;
 
 const Grid = withMediaStyle(
   _Grid,
   css`
-    grid-template: ${rotated};
+    grid-template: ${rotate};
   `
 );
 

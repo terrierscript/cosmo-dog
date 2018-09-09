@@ -4,14 +4,13 @@ import { OrangeButton, GrayButton } from "./Button";
 import { Gradient, FlexCenter } from "components/background/Background";
 
 const template = `
-". . so so"
-"ii ii ii ii"
-"ac pm pc di"
-"k7 k8 k9 pw"
-"k4 k5 k6 mi"
-"k1 k2 k3 pl"
-"zr zr do eq"/
-60px 60px 60px 60px
+  ". . so so"
+  "ii ii ii ii"
+  "ac pm pc di"
+  "k7 k8 k9 pw"
+  "k4 k5 k6 mi"
+  "k1 k2 k3 pl"
+  "zr zr do eq" / 60px 60px 60px 60px
 `;
 
 const Grid = styled.div`
@@ -21,7 +20,7 @@ const Grid = styled.div`
 `;
 
 export const Area = styled.div<{ area: string }>`
-  grid-area: ${p => p.area};
+  grid-area: ${(p) => p.area};
 `;
 const BlackBackground = styled.div`
   background: linear-gradient(
