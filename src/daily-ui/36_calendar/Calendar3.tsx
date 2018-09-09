@@ -2,6 +2,7 @@ import React, { Component, SFC } from "react";
 import { DateTime } from "luxon";
 import styled, { css } from "styled-components";
 import { generateFilledCalendar } from "./getMonthDate";
+import { gridDebug } from "components/grid/debug";
 
 type CalendarProps = {
   year: number;
@@ -13,26 +14,29 @@ const colorCss = css<any>`
   background-color: ${({ bgColor }) => bgColor};
 `;
 
+const size = "3em";
 const DayItem: any = styled.div`
   text-align: center;
   vertical-align: middle;
-  height: 3em;
-  line-height: 3em;
+  height: ${size};
+  line-height: ${size};
   font-size: 1em;
-  width: 3em;
+  width: ${size};
   border-radius: 50%;
   ${colorCss};
 `;
 
 export const CalendarGrid = styled.div`
   display: grid;
+  width: fit-content;
   grid-template-columns: repeat(7, 1fr);
   grid-auto-columns: max-content;
   grid-auto-rows: max-content;
-  grid-gap: 0.6em;
-  width: fit-content;
-  padding: 1em;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1em;
+  padding: 1.5em;
 `;
+
 export const Container = styled.div`
   background: #f4f4ed;
   width: fit-content;
@@ -43,7 +47,13 @@ export const Month = styled.div`
 `;
 
 const getFontColor = (date: DateTime) => {
-  return "#160f01";
+  switch (date.weekday) {
+    case 7:
+    case 6:
+      return "#fff";
+    default:
+      return "#160f01";
+  }
 };
 const getBgColor = (date: DateTime) => {
   switch (date.weekday) {
@@ -55,8 +65,15 @@ const getBgColor = (date: DateTime) => {
       return "#f7ab1d";
   }
 };
+
+const Dummy = styled(DayItem)`
+  ${gridDebug};
+`;
+
 // @ts-ignore;
 const Day: SFC<{ date: DateTime }> = ({ date }) => {
+  return <Dummy>{""}</Dummy>;
+
   if (!date) {
     return null;
   }
@@ -68,13 +85,36 @@ const Day: SFC<{ date: DateTime }> = ({ date }) => {
   );
 };
 
-const Days = ({ year, month }) => {
-  const days = generateFilledCalendar(year, month).reduce((curr, item) => {
+// console.log(
+//   JSON.stringify(
+//     generateFilledCalendar(year, month).map((item) => {
+//       return item.map((item) => {
+//         return !item ? item : `${item.day}`;
+//       });
+//     }),
+//     null
+//   )
+// );
+
+const generateCalendar = (year, month) => {
+  return generateFilledCalendar(year, month).reduce((curr, item) => {
     return [...curr, ...item];
   }, []);
+};
+
+// generateFilledCalendarは↓こんな感じで配列返すみたいなもの
+// [
+//   null, null, null, null, null, "1", "2",
+//   "3", "4", "5", "6", "7", "8", "9",
+//   "10", "11", "12", "13", "14", "15", "16",
+//   "17", "18", "19", "20", "21", "22", "23",
+//   "24", "25", "26", "27", "28", "29", "30",
+//   "31", null, null, null, null, null, null
+// ]
+const Days = ({ year, month }) => {
   return (
     <>
-      {days.map((date, i) => {
+      {generateCalendar(year, month).map((date, i) => {
         return (
           <div key={i}>
             <Day date={date} />
@@ -87,6 +127,8 @@ const Days = ({ year, month }) => {
 
 const WeekdayItem = styled.div`
   text-align: center;
+  color: #160f01;
+  font-size: 0.8em;
 `;
 const WeekdaysHeader = () => {
   return (
