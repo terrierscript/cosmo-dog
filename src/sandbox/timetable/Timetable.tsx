@@ -5,10 +5,11 @@ type Time = {
   min: string;
 };
 const members = ["taro", "jiro", "hanako"];
+
 const rows = ["time"].concat(members);
+
 const rangeTimes = (start = 10, hours = 6): Time[] => {
   return Array.from({ length: hours * 4 + 1 }, (_, i) => {
-    // TODO: more clean
     const hr = Math.floor(i / 4) + start;
     const min = (i % 4) * 15;
     const minSprint = min === 0 ? "00" : min;
@@ -18,12 +19,12 @@ const rangeTimes = (start = 10, hours = 6): Time[] => {
   });
 };
 
-const times = rangeTimes();
-
-// [t-1000] 1fr [t-1015] 1fr [t-1030] 1fr [t-1045] 1fr [t-1100] 1fr [t-1115] 1fr [t-1130] ..
+const times = rangeTimes(); // 時間を15分単位で排出
 const rowTemplate = ["[t-header]"]
   .concat(times.map((time) => `[t-${time.hour}${time.min}]`))
   .join(" 1fr ");
+// rowTemplateは↓こんな感じの文字列に
+// [t-1000] 1fr [t-1015] 1fr [t-1030] 1fr [t-1045] 1fr [t-1100] 1fr [t-1115] 1fr [t-1130] ..
 
 const Grid = styled.div`
   display: grid;
@@ -45,14 +46,16 @@ const Area = styled.div<{ column: string; rowStart: string; rowEnd?: string }>`
 
 const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
 // 全部のエリアにborderを撒き散らす
-const Border = styled(Area)<{color: string}>`
+
+const Border = styled(Area)<{ color: string }>`
   border-left: solid 1px #ccc;
   min-height: 3em;
   border-top: ${({ color = "#ccc" }) => `solid 1px ${color}`};
 `;
+
 const Borders = () => {
   const elms = rows.map((column) => {
-    return rangeTimes().map((time, i) => (
+    return times.map((time, i) => (
       <Border
         color={time.min == "00" ? "#333" : "#ccc"}
         column={column}
@@ -63,6 +66,7 @@ const Borders = () => {
   });
   return flatten(elms);
 };
+
 // @ts-ignore
 const Times: SFC<{}> = () => {
   return rangeTimes().map((time, i) => {
@@ -77,6 +81,7 @@ const Times: SFC<{}> = () => {
     );
   });
 };
+
 const ScheduleBlock = styled(Area)`
   background: #429bf4;
   /* border: 1px solid #2b293f; */
@@ -85,6 +90,7 @@ const ScheduleBlock = styled(Area)`
   padding: 1em;
   margin: 0.1em 0.5em;
 `;
+
 const Schedule: SFC<{ start: string; end: string; name: string }> = ({
   start,
   end,
@@ -125,8 +131,8 @@ export const Timetable = () => {
   return (
     <Grid>
       <Borders />
-      <Times />
       <Headers />
+      <Times />
 
       <Schedule name="taro" start={"1030"} end={"1145"}>
         外出

@@ -4,7 +4,7 @@ import { OrangeButton, GrayButton } from "./Button";
 import { Gradient, FlexCenter } from "components/background/Background";
 
 const template = `
-  ". . so so"
+  ".  .  so so"
   "ii ii ii ii"
   "ac pm pc di"
   "k7 k8 k9 pw"
@@ -85,7 +85,7 @@ const Numbers = () => {
   );
 };
 
-const Cal = () => (
+const Operator = () => (
   <>
     <Area area="di">
       <OrangeButton>÷</OrangeButton>
@@ -142,7 +142,7 @@ export const Calcurator = () => {
           </Area>
           {/* <SolarPanel /> */}
           <Numbers />
-          <Cal />
+          <Operator />
         </Grid>
       </BlackBackground>
     </Container>
