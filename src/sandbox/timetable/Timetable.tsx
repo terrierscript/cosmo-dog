@@ -45,7 +45,7 @@ const Area = styled.div<{ column: string; rowStart: string; rowEnd?: string }>`
 
 const flatten = (item) => item.reduce((a, b) => a.concat(b), []);
 // 全部のエリアにborderを撒き散らす
-const Border = styled(Area)`
+const Border = styled(Area)<{color: string}>`
   border-left: solid 1px #ccc;
   min-height: 3em;
   border-top: ${({ color = "#ccc" }) => `solid 1px ${color}`};

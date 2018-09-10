@@ -1,10 +1,13 @@
-import { Row, Col } from "../index";
+import { Col, ColRow, ColRepeat } from "../index";
 
 export default [
   {
-    component: Row
+    component: Col
   },
   {
-    component: Col
+    component: ColRow
+  },
+  {
+    component: ColRepeat
   }
 ];

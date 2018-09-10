@@ -72,8 +72,6 @@ const Dummy = styled(DayItem)`
 
 // @ts-ignore;
 const Day: SFC<{ date: DateTime }> = ({ date }) => {
-  return <Dummy>{""}</Dummy>;
-
   if (!date) {
     return null;
   }
