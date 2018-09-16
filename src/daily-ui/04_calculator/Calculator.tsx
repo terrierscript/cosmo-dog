@@ -99,9 +99,9 @@ const Operator = () => (
     <Area area="pl">
       <OrangeButton>+</OrangeButton>
     </Area>
-    <Area area="do">
+    {/* <Area area="do">
       <NumberButton>.</NumberButton>
-    </Area>
+    </Area> */}
     <Area area="eq">
       <OrangeButton>=</OrangeButton>
     </Area>

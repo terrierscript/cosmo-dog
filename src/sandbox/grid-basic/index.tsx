@@ -30,6 +30,7 @@ export const ColRepeat = () => {
     </ColRepeatGrid>
   );
 };
+
 export const Col = () => {
   return (
     <ColGrid>
