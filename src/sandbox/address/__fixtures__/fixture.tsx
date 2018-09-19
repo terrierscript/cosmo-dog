@@ -1,7 +1,7 @@
-import { Address } from "../index";
+import { Resume } from "../index";
 
 export default [
   {
-    component: Address
+    component: Resume
   }
 ];
