@@ -11,7 +11,7 @@ const template = `
   "k7 k8 k9 pw"
   "k4 k5 k6 mi"
   "k1 k2 k3 pl"
-  "zr zr do eq" / 60px 60px 60px 60px
+  "k0 k0 do eq" / 60px 60px 60px 60px
 `;
 
 const Grid = styled.div`
@@ -49,36 +49,13 @@ const NumberButton = GrayButton;
 const Numbers = () => {
   return (
     <>
-      <Area area="k1">
-        <NumberButton>1</NumberButton>
-      </Area>
-      <Area area="k2">
-        <NumberButton>2</NumberButton>
-      </Area>
-      <Area area="k3">
-        <NumberButton>3</NumberButton>
-      </Area>
-      <Area area="k4">
-        <NumberButton>4</NumberButton>
-      </Area>
-      <Area area="k5">
-        <NumberButton>5</NumberButton>
-      </Area>
-      <Area area="k6">
-        <NumberButton>6</NumberButton>
-      </Area>
-      <Area area="k7">
-        <NumberButton>7</NumberButton>
-      </Area>
-      <Area area="k8">
-        <NumberButton>8</NumberButton>
-      </Area>
-      <Area area="k9">
-        <NumberButton>9</NumberButton>
-      </Area>
-      <Area area="zr">
-        <NumberButton>0</NumberButton>
-      </Area>
+      {Array.from({ length: 10 }).map((_, i) => {
+        return (
+          <Area area={`k${i}`} key={i}>
+            <NumberButton>{i}</NumberButton>
+          </Area>
+        );
+      })}
     </>
   );
 };
@@ -97,9 +74,9 @@ const Operator = () => (
     <Area area="pl">
       <OrangeButton>+</OrangeButton>
     </Area>
-    {/* <Area area="do">
+    <Area area="do">
       <NumberButton>.</NumberButton>
-    </Area> */}
+    </Area>
     <Area area="eq">
       <OrangeButton>=</OrangeButton>
     </Area>

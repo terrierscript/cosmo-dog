@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Item = styled.div`
+const Item = styled.div<any>`
   color: #182438;
   padding: 1em;
   background: ${(props) => `${props.bgColor}`};
