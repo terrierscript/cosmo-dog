@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import { OrangeButton, GrayButton } from "./Button";
 import { Gradient, FlexCenter } from "components/background/Background";
+import { Area } from "components/grid/Grid";
 
 const template = `
   ".  .  so so"
@@ -19,9 +20,6 @@ const Grid = styled.div`
   grid-gap: 1em;
 `;
 
-export const Area = styled.div<{ area: string }>`
-  grid-area: ${(p) => p.area};
-`;
 const BlackBackground = styled.div`
   background: linear-gradient(
     0deg,
