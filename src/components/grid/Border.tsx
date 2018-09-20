@@ -10,8 +10,9 @@ type Props = {
 
 const border = (direction, props) => {
   const color = props[direction] ? "black" : "transparent";
+  const type = props[direction] ? "solid" : "none"
   const width = props.width || 1;
-  return `border-${direction}: solid ${width}px ${color}`;
+  return `border-${direction}: ${type} ${width}px ${color}`;
 };
 
 const parseBorderProps = (props: Props) => {

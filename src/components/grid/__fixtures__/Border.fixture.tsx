@@ -21,7 +21,7 @@ export default [
     props: {
       right: true,
       bottom: true,
-      width: 2,
+      width: 10,
       children: "Bottom Rigth"
     }
   }
