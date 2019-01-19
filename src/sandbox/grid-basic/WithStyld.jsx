@@ -3,7 +3,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const template = ["i", "ro", "ha", "ni"].map((area) => `[${area}]`).join(" 1fr ");
+const template = ["i", "ro", "ha", "ni"]
+  .map((area) => `[${area}]`)
+  .join(" 1fr ");
 // template = [i] 1fr [ro] 1fr [ha] 1fr [ni]
 
 const GridLayout = styled.div`
@@ -15,14 +17,26 @@ const Area = styled.div`
   grid-column: ${(props) => props.area};
 `;
 
-export const MyComponent = () => {
+const Items = () => {
+  const items = [
+    { area: "i", content: "い" },
+    { area: "ro", content: "ろ" },
+    { area: "ha", content: "は" },
+    { area: "ni", content: "に" }
+  ];
   return (
-    <GridLayout>
-      <Area area="i">い</Area>
-      <Area area="ro">ろ</Area>
-      <Area area="ha">は</Area>
-      <Area area="ni">に</Area>
-    </GridLayout>
+    <>
+      {items.map(({ area, content }) => {
+        return <Area area={area}>{content}</Area>;
+      })}
+    </>
   );
 };
 
+export const MyComponent = () => {
+  return (
+    <GridLayout>
+      <Items />
+    </GridLayout>
+  );
+};
