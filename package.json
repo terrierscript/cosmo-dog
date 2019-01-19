@@ -32,7 +32,8 @@
     "webpack": "^4.16.5"
   },
   "scripts": {
-    "start": "cosmos",
+    "start:old": "cosmos",
+    "start": "cosmos --config cosmos.config.next.js",
     "build": "cosmos-export; ls cosmos-export"
   }
 }
