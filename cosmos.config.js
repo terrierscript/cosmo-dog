@@ -2,7 +2,7 @@ module.exports = {
   // webpackConfigPath: "node_modules/react-scripts-ts/config/webpack.config.dev"
   // watchDirs: ["src/**/*"],
   globalImports: ["./src/cosmos/reset.js"],
-
+  
   webpack(config) {
     return {
       ...config,
