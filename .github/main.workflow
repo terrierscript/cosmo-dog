@@ -16,13 +16,22 @@ action "aquariuslt/github-actions-yarn@master" {
   args = "test"
 }
 
-workflow "Pull Req" {
+workflow "Comment Buld" {
   on = "issue_comment"
-  resolves = ["vsoch/pull-request-action"]
+  resolves = [
+    "vsoch/pull-request-action"
+  ]
+}
+
+
+action "comment" {
+  uses = "actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859"
+  args = "issue_comment build"
 }
 
 action "install-pull" {
   uses = "aquariuslt/github-actions-yarn@master"
+  needs = ["comment"]
   runs = "yarn"
   args = "install"
 }
