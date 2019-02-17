@@ -1,4 +1,4 @@
-workflow "New workflow" {
+workflow "Default test" {
   on = "push"
   resolves = ["aquariuslt/github-actions-yarn@master"]
 }
@@ -16,13 +16,12 @@ action "aquariuslt/github-actions-yarn@master" {
   args = "test"
 }
 
-workflow "Comment Buld" {
+workflow "Build when comment" {
   on = "issue_comment"
   resolves = [
-    "vsoch/pull-request-action"
+    "vsoch/pull-request-action",
   ]
 }
-
 
 action "comment" {
   uses = "actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859"
