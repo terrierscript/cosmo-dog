@@ -13,10 +13,19 @@ export const withMediaStyle = (Component, extend) => {
 };
 
 export const withMediaComponent = (DesktopComponent, MobileComponent) => {
-  return props => {
+  return (props) => {
+    // TODO: もうちょっとなんとか
+    if (
+      // @ts-ignore
+      typeof window.targetWindow !== "object" ||
+      // @ts-ignore
+      typeof window.targetWindow.matchMedia === "function"
+    ) {
+      return <MobileComponent {...props} />;
+    }
     return (
       <Media query="(max-width: 768px)">
-        {matches =>
+        {(matches) =>
           matches ? (
             <MobileComponent {...props} />
           ) : (

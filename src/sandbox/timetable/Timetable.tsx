@@ -116,9 +116,9 @@ const HeaderCell = styled(Area)`
 const Headers = () => {
   return (
     <>
-      {members.map((member) => {
+      {members.map((member, i) => {
         return (
-          <HeaderCell column={member} rowStart={"header"}>
+          <HeaderCell column={member} rowStart={"header"} key={i}>
             {member}
           </HeaderCell>
         );

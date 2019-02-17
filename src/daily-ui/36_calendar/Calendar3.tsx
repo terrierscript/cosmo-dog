@@ -132,7 +132,7 @@ const WeekdaysHeader = () => {
   return (
     <>
       {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((weekday) => {
-        return <WeekdayItem>{weekday}</WeekdayItem>;
+        return <WeekdayItem key={weekday}>{weekday}</WeekdayItem>;
       })}
     </>
   );

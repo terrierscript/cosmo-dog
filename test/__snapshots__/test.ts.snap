@@ -1,0 +1,3512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cosmos fixtures: AnimationSample:Grid 1`] = `
+<div
+  className="sc-cmTdod Qolbh"
+>
+  <div
+    className="sc-jwKygS kGLbxu"
+    style={
+      Object {
+        "background": "red",
+      }
+    }
+  >
+    a
+  </div>
+  <div
+    className="sc-jwKygS kGLbxu"
+    style={
+      Object {
+        "background": "blue",
+      }
+    }
+  >
+    b
+  </div>
+  <div
+    className="sc-jwKygS kGLbxu"
+    style={
+      Object {
+        "background": "green",
+      }
+    }
+  >
+    c
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: AreaLayout:Grid 1`] = `
+<div
+  className="sc-gxMtzJ gUSNes"
+>
+  <div
+    className="sc-dfVpRl gEHjZO"
+  >
+    header
+  </div>
+  <div
+    className="sc-dfVpRl dmArnv"
+  >
+    body
+  </div>
+  <div
+    className="sc-dfVpRl bqVgTZ"
+  >
+    footer
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: BadPattern:fixture 1`] = `
+<div
+  className="sc-eqIVtm igJBRL"
+>
+  <div
+    className="sc-fAjcbJ blmQFh sc-htoDjs fTekUM"
+  >
+    A
+  </div>
+  <div
+    className="sc-caSCKo hoTLAP sc-htoDjs fXVSML"
+  >
+    B
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: ButtonSamples:Button 1`] = `
+Array [
+  <div
+    className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+  >
+    <div
+      className="sc-chPdSV dzEDoy"
+    >
+      1
+    </div>
+  </div>,
+  <div
+    className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+  >
+    <div
+      className="sc-chPdSV dzEDoy"
+    >
+      1
+    </div>
+  </div>,
+]
+`;
+
+exports[`Cosmos fixtures: Calcurator:Main 1`] = `
+<div
+  className="sc-dxgOiQ lmnhrI sc-bdVaJa kLZEci"
+>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand"
+    rel="stylesheet"
+  />
+  <div
+    className="sc-kGXeez dFclcf"
+  >
+    <div
+      className="sc-kgoBCf ikywBg"
+    >
+      <div
+        className="sc-htoDjs iiVoM"
+      >
+        <input
+          className="sc-kpOJdX kNYdVj"
+        />
+      </div>
+      <div
+        className="sc-htoDjs fXdGuT"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            0
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs iWLvjX"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            1
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs jPQrmA"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            2
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs bnPGoA"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            3
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs eascfo"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            4
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs csICzR"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            5
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs cWGWfc"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            6
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs iqtsfJ"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            7
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs cDVdnH"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            8
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs eNFiUn"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            9
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs inLUsQ"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            ÷
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs juVpjW"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            ×
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs gjYUvg"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            -
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs fIGzM"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            +
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs edNovu"
+      >
+        <div
+          className="sc-kAzzGY bPBFah sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            .
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs hOxktb"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            =
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs bmHqPs"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            AC
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs cWtJFW"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            +/-
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htoDjs hFvbTI"
+      >
+        <div
+          className="sc-cSHVUG kelvdY sc-jzJRlG brgISR"
+        >
+          <div
+            className="sc-chPdSV dzEDoy"
+          >
+            %
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Calendar:Calendar 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    prev
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    next
+  </button>
+  <div>
+    2021
+    /
+    1
+  </div>
+  <div
+    className="sc-eHgmQL lducar"
+  >
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY frYeLF"
+    >
+      <div>
+        cal-5-0
+      </div>
+      <div>
+        1
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY dMQFxh"
+    >
+      <div>
+        cal-6-0
+      </div>
+      <div>
+        2
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fatMkF"
+    >
+      <div>
+        cal-0-1
+      </div>
+      <div>
+        3
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY knPIPL"
+    >
+      <div>
+        cal-1--52
+      </div>
+      <div>
+        4
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fXlDcO"
+    >
+      <div>
+        cal-2--52
+      </div>
+      <div>
+        5
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fZWVBM"
+    >
+      <div>
+        cal-3--52
+      </div>
+      <div>
+        6
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY iYdNNS"
+    >
+      <div>
+        cal-4--52
+      </div>
+      <div>
+        7
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY egiiX"
+    >
+      <div>
+        cal-5--52
+      </div>
+      <div>
+        8
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY ejEFNK"
+    >
+      <div>
+        cal-6--52
+      </div>
+      <div>
+        9
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY euHeXZ"
+    >
+      <div>
+        cal-0--51
+      </div>
+      <div>
+        10
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY iUOgva"
+    >
+      <div>
+        cal-1--51
+      </div>
+      <div>
+        11
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY gTEHDH"
+    >
+      <div>
+        cal-2--51
+      </div>
+      <div>
+        12
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY eRQoUW"
+    >
+      <div>
+        cal-3--51
+      </div>
+      <div>
+        13
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY dPHItr"
+    >
+      <div>
+        cal-4--51
+      </div>
+      <div>
+        14
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY eLWNTu"
+    >
+      <div>
+        cal-5--51
+      </div>
+      <div>
+        15
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY gVGbFn"
+    >
+      <div>
+        cal-6--51
+      </div>
+      <div>
+        16
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fsvBXo"
+    >
+      <div>
+        cal-0--50
+      </div>
+      <div>
+        17
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY ewPIif"
+    >
+      <div>
+        cal-1--50
+      </div>
+      <div>
+        18
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY kOCTpv"
+    >
+      <div>
+        cal-2--50
+      </div>
+      <div>
+        19
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY bCXMji"
+    >
+      <div>
+        cal-3--50
+      </div>
+      <div>
+        20
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY gExZaB"
+    >
+      <div>
+        cal-4--50
+      </div>
+      <div>
+        21
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY YkpAM"
+    >
+      <div>
+        cal-5--50
+      </div>
+      <div>
+        22
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fesmVS"
+    >
+      <div>
+        cal-6--50
+      </div>
+      <div>
+        23
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY iSHlGB"
+    >
+      <div>
+        cal-0--49
+      </div>
+      <div>
+        24
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY bkNMjs"
+    >
+      <div>
+        cal-1--49
+      </div>
+      <div>
+        25
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY gzOOJE"
+    >
+      <div>
+        cal-2--49
+      </div>
+      <div>
+        26
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY lfMqct"
+    >
+      <div>
+        cal-3--49
+      </div>
+      <div>
+        27
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY gnAhVk"
+    >
+      <div>
+        cal-4--49
+      </div>
+      <div>
+        28
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY cIZOLj"
+    >
+      <div>
+        cal-5--49
+      </div>
+      <div>
+        29
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY fTeAPq"
+    >
+      <div>
+        cal-6--49
+      </div>
+      <div>
+        30
+      </div>
+    </div>
+    <div
+      className="sc-jWBwVP ecrKPb sc-cvbbAY hVvjXx"
+    >
+      <div>
+        cal-0--48
+      </div>
+      <div>
+        31
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Calendar2:Calendar 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    prev
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    next
+  </button>
+  <div>
+    2021
+    /
+    1
+  </div>
+  <div
+    className="sc-cMljjf eqwSec sc-brqgnP cPKhQf"
+  >
+    <div
+      className="sc-htoDjs fBsmYx"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        1
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs ipmCMB"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        2
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs cxgDtY"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        3
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs gyivMP"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs gunacp"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        5
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs dlOtPQ"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        6
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs hBrreN"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        7
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs dFfLVn"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        8
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs fFmPAi"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        9
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs btkcpr"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        10
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs llOArV"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        11
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs kbMiQI"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        12
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs hIGSB"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        13
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs gcFmlp"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        14
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs fAoWkx"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        15
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs flzCjj"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        16
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs IXSuI"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        17
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs edunMb"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        18
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs hAmmPh"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        19
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs bHRiaJ"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        20
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs geGFjp"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        21
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs kguEmT"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        22
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs OhFTM"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        23
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs jEREte"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        24
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs ijBiUG"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        25
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs emktHy"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        26
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs fHyrgy"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        27
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs fWVUIS"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        28
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs apEgH"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        29
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs gCksPn"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        30
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs ksziDo"
+    >
+      <div
+        className="sc-jAaTju ihuqTI"
+      >
+        31
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Calendar3:Calendar 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    prev
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    next
+  </button>
+  <div
+    className="sc-iRbamj bGwmXI"
+  >
+    <div
+      className="sc-jlyJG koTtbD"
+    >
+      2021
+      /
+      1
+    </div>
+    <div
+      className="sc-gPEVay dbkkvm"
+    >
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Sun
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Mon
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Tue
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Wed
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Thu
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Fri
+      </div>
+      <div
+        className="sc-csuQGl bHGNrp"
+      >
+        Sat
+      </div>
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          1
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ jFfdVB"
+        >
+          2
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ ZsQGY"
+        >
+          3
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          4
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          5
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          6
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          7
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          8
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ jFfdVB"
+        >
+          9
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ ZsQGY"
+        >
+          10
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          11
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          12
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          13
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          14
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          15
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ jFfdVB"
+        >
+          16
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ ZsQGY"
+        >
+          17
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          18
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          19
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          20
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          21
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          22
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ jFfdVB"
+        >
+          23
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ ZsQGY"
+        >
+          24
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          25
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          26
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          27
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          28
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ dfEcEc"
+        >
+          29
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ jFfdVB"
+        >
+          30
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jDwBTQ ZsQGY"
+        >
+          31
+        </div>
+      </div>
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: CardInput:fixtures 1`] = `
+<input
+  className="sc-gqjmRU hASBMz"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onPaste={[Function]}
+  value="1234 5678 9012 3456"
+/>
+`;
+
+exports[`Cosmos fixtures: CardMock:Chat 1`] = `
+<div
+  className="sc-bwzfXH haYavP"
+>
+  <div
+    className="sc-cIShpX eofjWH"
+  >
+    <div
+      className="sc-kafWEX htTxBN"
+    >
+      <img
+        className="sc-ktHwxA PiIQP sc-hEsumM iredxQ"
+        size={60}
+        src="https://pbs.twimg.com/profile_images/966830018235064320/0p8V7WeV_400x400.jpg"
+      />
+    </div>
+    <div
+      className="sc-kafWEX hxFIXQ"
+    >
+      <div
+        className="sc-iELTvK fobzNR"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+    <div
+      className="sc-kafWEX fGLDKB"
+    >
+      <div
+        className="sc-feJyhm cuBZNg"
+      >
+        2018-08-11 16:17
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Checkout:fixtures 1`] = `
+<div
+  className="sc-iwsKbI dmEUpa"
+>
+  <div
+    className="sc-htoDjs jYjosv"
+  >
+    Please input your card
+  </div>
+  <div
+    className="sc-htoDjs fTWDqM"
+  >
+    <label>
+      <div
+        className="sc-gZMcBi giNnHm"
+      >
+        First Name
+      </div>
+      <input
+        className="sc-dnqmqq fkqLTU"
+      />
+    </label>
+  </div>
+  <div
+    className="sc-htoDjs fbxZoR"
+  >
+    <label>
+      <div
+        className="sc-gZMcBi giNnHm"
+      >
+        Last Name
+      </div>
+      <input
+        className="sc-dnqmqq fkqLTU"
+      />
+    </label>
+  </div>
+  <div
+    className="sc-htoDjs bYpjOm"
+  >
+    <div
+      className="sc-gZMcBi giNnHm"
+    >
+      Card Number
+    </div>
+    <input
+      className="sc-dnqmqq fkqLTU"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      onPaste={[Function]}
+    />
+  </div>
+  <div
+    className="sc-htoDjs gmVYPD"
+  />
+</div>
+`;
+
+exports[`Cosmos fixtures: Error404:Error 1`] = `
+<div>
+  <link
+    href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre"
+    rel="stylesheet"
+  />
+  <div
+    className="sc-ifAKCX cwNaLg"
+  >
+    <div
+      className="sc-jKJlTe WTABM"
+    >
+      <div
+        className="sc-eNQAEJ dKHfDi"
+      >
+        <div
+          className="sc-kEYyzF fRnPhU"
+        >
+          404
+        </div>
+        <div
+          className="sc-hMqMXs kYvPQo"
+        >
+          <div>
+            <ul
+              className="sc-hSdWYo yukhr"
+            >
+              <li>
+                Please check URL.
+              </li>
+              <li>
+                <a
+                  href="#"
+                >
+                  Go back to home
+                </a>
+                 if you want.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="sc-iAyFgw bWOPDx"
+        >
+          <div>
+            Do you need help?
+          </div>
+          <a
+            href="#"
+          >
+            Help Center
+          </a>
+        </div>
+        <div
+          className="sc-kkGfuU gnyVer"
+        >
+          Not found
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Error500:Error 1`] = `
+<div>
+  <link
+    href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre"
+    rel="stylesheet"
+  />
+  <div
+    className="sc-ifAKCX cwNaLg"
+  >
+    <div
+      className="sc-jKJlTe WTABM"
+    >
+      <div
+        className="sc-eNQAEJ dKHfDi"
+      >
+        <div
+          className="sc-kEYyzF fRnPhU"
+        >
+          500
+        </div>
+        <div
+          className="sc-hMqMXs kYvPQo"
+        >
+          <div>
+            <ul
+              className="sc-hSdWYo yukhr"
+            >
+              <li>
+                Sorry, something wrong.
+              </li>
+              <li>
+                Try again in 30 minutes.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="sc-iAyFgw bWOPDx"
+        >
+          <div>
+            Do you need help?
+          </div>
+          <a
+            href="#"
+          >
+            Help Center
+          </a>
+        </div>
+        <div
+          className="sc-kkGfuU gnyVer"
+        >
+          Internal Server Error
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Example:Grid 1`] = `
+<div
+  className="sc-jtRfpW iyuPcA"
+>
+  <div
+    className="sc-dqBHgY fzygsb sc-htoDjs ljHLCx"
+  >
+    B
+  </div>
+  <div
+    className="sc-kTUwUJ iuiJFp sc-htoDjs fGULJV"
+  >
+    A
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Hero:Grid 1`] = `
+<div
+  className="sc-bwzfXH haYavP"
+>
+  <div
+    className="sc-lhVmIH jsUgMB"
+  >
+    <div
+      className="sc-elJkPf cCIfRO sc-bYSBpT gSOmyZ"
+    >
+      <input
+        className="sc-btzYZH dUnMxr"
+        placeholder="Search Items"
+      />
+    </div>
+    <div
+      className="sc-elJkPf cCIfRO sc-bYSBpT ckirJo"
+    >
+      <div
+        className="sc-htpNat gSTqzQ"
+      >
+        body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Keyboard:Keyboard 1`] = `
+<div
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+>
+  <div
+    className="sc-gzOgki dyyFyC"
+  >
+    <div
+      className="sc-iyvyFf djkrjV"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        A
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf cpnFNK"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        B
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf edVpyQ"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        C
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf crAzHy"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        D
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf eoGlQt"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        E
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf UEJTx"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        F
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf bYMAgq"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        G
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf gDNBjT"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        H
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf fVXNRR"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        I
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf fmUarr"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        J
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf hANOhr"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        K
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf gKSeOJ"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        L
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf fRywQH"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        M
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf lnHvOi"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        N
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf erflbl"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        O
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf fRarFL"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        P
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf jObPEr"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        Q
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf cDfiNo"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        R
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf eQFkqm"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        S
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf jpZwoP"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        T
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf erlboO"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        U
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf cakQlf"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        V
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf bukOqF"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        W
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf GRMKe"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        X
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf dvvrar"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        Y
+      </div>
+    </div>
+    <div
+      className="sc-iyvyFf inDAmU"
+    >
+      <div
+        className="sc-hwwEjo jbDSOy"
+      >
+        Z
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: LandingPage:LandingPage 1`] = `
+<div
+  className="sc-VigVT eVfibO"
+>
+  <div
+    className="sc-fjdhpX bXfDrq sc-jTzLTM zPvi"
+  />
+  <div
+    className="sc-fjdhpX bXfDrq sc-jTzLTM zPvi"
+  />
+  <div
+    className="sc-fjdhpX bXfDrq sc-jTzLTM zPvi"
+  />
+  <div
+    className="sc-fjdhpX bXfDrq sc-jTzLTM zPvi"
+  />
+  <div
+    className="sc-fjdhpX bXfDrq sc-jTzLTM zPvi"
+  />
+</div>
+`;
+
+exports[`Cosmos fixtures: LearnCampus:LearnCanvas 1`] = `
+<div
+  className="sc-kfGgVZ kTQmmk sc-kPVwWT fXbHTk"
+>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s1",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      1.課題
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s2",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      2.顧客セグメント
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s3",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      3.独自の価値提案
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s4",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      4.ソリューション
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s5",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      5.チャネル
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s6",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      6.収入の流れ
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s7",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      7.コスト構造
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s8",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      8.主要指標
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+  <div
+    className="sc-esjQYD fKsYRV"
+    style={
+      Object {
+        "gridArea": "s9",
+      }
+    }
+  >
+    <div
+      className="sc-eXEjpC fQgoOP"
+    >
+      9.圧倒的な優位性
+    </div>
+    <div
+      className="sc-kIPQKe erscEf"
+      contentEditable={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: MediaComponent:Media 1`] = `
+<div>
+  <div>
+    sp
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: MediaStyle:Media 1`] = `
+<div>
+  <div
+    className="sc-eilVRo czJFrW sc-gHboQg cvxEQX"
+  >
+    aaa
+  </div>
+  <div
+    className="sc-gHboQg cvxEQX"
+  >
+    PC
+  </div>
+  <div
+    className="sc-eerKOB fEdAae"
+  >
+    SP
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Othero:fixture 1`] = `
+<div
+  className="sc-RefOD krnLPS"
+>
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gUKHPk sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz NequJ sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jFQLUk sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz cKnObZ sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ilfawU sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz NYEkb sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gIGwNr sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz cNaHTW sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz drciqt sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz liQDxC sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jvPhFz sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gxcFMK sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz brJsqh sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ckAPUb sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gxvbEO sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz iDCAAi sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz bgLznH sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hUgqas sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz YKMar sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jEJBLO sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz dOhLiW sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz cmIJwO sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ftaxaa sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz HqQzg sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz kCvMKS sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz Scgos sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz inujdL sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gHWhHP sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz mqryH sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gsxZSj sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ennvSA sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz paffy sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz cuEfIt sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz bgPluE sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hzPglV sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz LrcER sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jUleqM sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz dBmldh sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz dzOgFP sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz RAREl sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hdXnGk sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jmPIjf sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jCefkX sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz lRHUT sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz kRcCIt sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz cxAcKA sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hDACLe sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hxbMjg sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz FNcZH sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hlQdij sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jlvuqI sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz iWvZio sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz bOirYG sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jsbmZM sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz gNQSsD sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz hRLqoo sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz jKSXIn sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz kOheEv sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz fYYfty sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz fXztKS sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ctXRq sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz fORhsv sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz ggcjAy sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-hrWEMg gdLmww sc-bwCtUz kyQNYK sc-iQKALj gHdTKm"
+  />
+  <div
+    className="sc-eTuwsz dSfVrs sc-bwCtUz gHWhHP sc-iQKALj gHdTKm"
+    color="black"
+  />
+  <div
+    className="sc-eTuwsz gthgwP sc-bwCtUz mqryH sc-iQKALj gHdTKm"
+    color="white"
+  />
+  <div
+    className="sc-eTuwsz gthgwP sc-bwCtUz LrcER sc-iQKALj gHdTKm"
+    color="white"
+  />
+  <div
+    className="sc-eTuwsz dSfVrs sc-bwCtUz jUleqM sc-iQKALj gHdTKm"
+    color="black"
+  />
+</div>
+`;
+
+exports[`Cosmos fixtures: Resume:fixture 1`] = `
+<div
+  className="sc-Rmtcm zcnPx"
+>
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs jQyQjI"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs kqCaxX"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs hqRxHF"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs jzWEvG"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs hMDEyy"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs guOwxC"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs dfZDbK"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs gzckHW"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs KsGBb"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs ddmGwA"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs bYvjgn"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs hZMEPI"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs lgpvjk"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs flHGUw"
+  />
+  <div
+    className="sc-bRBYWo cPXYRD sc-htoDjs jOEDkv"
+  />
+  <div
+    className="sc-htoDjs hcynPq"
+  >
+    <div
+      className="sc-fMiknA kZlXhs"
+    >
+      履歴書
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs cKOkCq"
+  >
+    2018/09/20
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs feHkND"
+  >
+    <div
+      className="sc-fBuWsC bYrDhy"
+    >
+      しいえす
+    </div>
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs eCleyK"
+  >
+    <div
+      className="sc-fBuWsC bYrDhy"
+    >
+      えすたろう
+    </div>
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs gqCQPF"
+  >
+    <div
+      className="sc-jhAzac fxSOvz"
+    >
+      椎江州
+    </div>
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs lkqNHL"
+  >
+    <div
+      className="sc-jhAzac fxSOvz"
+    >
+      得太郎
+    </div>
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs iAXIpH"
+  >
+    男
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs UbQog"
+  >
+    昭和 60 年 1 月 1 日
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs gwLAsk"
+  >
+    〒 153-0063
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs fsRhEy"
+  >
+    東京都目黒区目黒３丁目９−１ 目黒 須田 ビル 5F
+  </div>
+  <div
+    className="sc-dVhcbM jMaqaK sc-htoDjs holYui"
+  >
+    090-1234-5678
+  </div>
+  <div
+    className="sc-htoDjs bDJmQW"
+  >
+    <img
+      className="sc-hzDkRC kqTZRu"
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Resume2:fixture 1`] = `
+<div
+  className="sc-kjoXOD jFcUJF"
+>
+  <div
+    className="sc-hmzhuo kCMrCH sc-gisBJw gxpDxp"
+    r={0}
+  />
+  <div
+    className="sc-hmzhuo SYZSc sc-gisBJw gulSGN"
+    r={2}
+  />
+  <div
+    className="sc-hmzhuo laGcEN sc-gisBJw iRonXt"
+    r={0}
+  />
+  <div
+    className="sc-hmzhuo hDLVlk sc-gisBJw cDbHDZ"
+    r={2}
+  />
+  <div
+    className="sc-hmzhuo jeRlfv sc-gisBJw cDbHDZ"
+    r={2}
+  />
+  <div
+    className="sc-hmzhuo dqYtwy sc-gisBJw iRonXt"
+    r={0}
+  />
+  <div
+    className="sc-hmzhuo dprgJD sc-gisBJw jnicTC"
+    r={0}
+  />
+  <div
+    className="sc-hmzhuo fSvOeY sc-gisBJw gXPsla"
+    r={0}
+  />
+  <div
+    className="sc-hmzhuo uuULL sc-gisBJw iJfMem"
+    r={2}
+    style={
+      Object {
+        "height": "98%",
+      }
+    }
+  />
+  <div
+    className="sc-hmzhuo kLIWCC sc-gisBJw gNNdaq"
+    r={2}
+  />
+  <div
+    className="sc-htoDjs hcynPq"
+  >
+    <div
+      className="sc-cJSrbW bSGlSh"
+    >
+      履歴書
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs cKOkCq"
+  >
+    2018/09/20
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs feHkND"
+  >
+    <div
+      className="sc-kgAjT kUHROd"
+    >
+      しいえす
+    </div>
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs eCleyK"
+  >
+    <div
+      className="sc-kgAjT kUHROd"
+    >
+      えすたろう
+    </div>
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs gqCQPF"
+  >
+    <div
+      className="sc-TOsTZ bvqnfx"
+    >
+      椎江州
+    </div>
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs lkqNHL"
+  >
+    <div
+      className="sc-TOsTZ bvqnfx"
+    >
+      得太郎
+    </div>
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs iAXIpH"
+  >
+    男
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs UbQog"
+  >
+    昭和 60 年 1 月 1 日
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs gwLAsk"
+  >
+    〒 153-0063
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs fsRhEy"
+  >
+    東京都目黒区目黒３丁目９−１ 目黒 須田 ビル 5F
+  </div>
+  <div
+    className="sc-ksYbfQ eWrFEL sc-htoDjs holYui"
+  >
+    090-1234-5678
+  </div>
+  <div
+    className="sc-htoDjs bDJmQW"
+  >
+    <img
+      className="sc-cHGsZl QkJkv"
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Resume3:fixture 1`] = `
+<div
+  className="sc-kvZOFW gNqicm sc-frDJqD bANeDT"
+>
+  <div
+    className="sc-htoDjs hcynPq"
+  >
+    <div
+      className="sc-bbmXgH itwEVu"
+    >
+      履歴書
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs cKOkCq"
+  >
+    2018/09/20
+  </div>
+  <div
+    className="sc-hqyNC cKPNPO sc-frDJqD bANeDT"
+  >
+    <div
+      className="sc-gGBfsJ jKKPmV sc-htoDjs feHkND"
+    >
+      <div
+        className="sc-uJMKN gJqFYv"
+      >
+        しいえす
+      </div>
+    </div>
+    <div
+      className="sc-gGBfsJ jKKPmV sc-htoDjs eCleyK"
+    >
+      <div
+        className="sc-uJMKN gJqFYv"
+      >
+        えすたろう
+      </div>
+    </div>
+    <div
+      className="sc-gGBfsJ jKKPmV sc-htoDjs gqCQPF"
+    >
+      <div
+        className="sc-jqCOkK eQctBY"
+      >
+        椎江州
+      </div>
+    </div>
+    <div
+      className="sc-gGBfsJ jKKPmV sc-htoDjs lkqNHL"
+    >
+      <div
+        className="sc-jqCOkK eQctBY"
+      >
+        得太郎
+      </div>
+    </div>
+    <div
+      className="sc-gGBfsJ aQgDx sc-htoDjs iAXIpH"
+    >
+      男
+    </div>
+    <div
+      className="sc-gGBfsJ aQgDx sc-htoDjs UbQog"
+    >
+      昭和 60 年 1 月 1 日
+    </div>
+  </div>
+  <div
+    className="sc-jbKcbu gMlOsv sc-frDJqD bANeDT"
+  >
+    <div
+      className="sc-gGBfsJ aQgDx sc-htoDjs gwLAsk"
+    >
+      〒 153-0063
+    </div>
+    <div
+      className="sc-gGBfsJ aQgDx sc-htoDjs fsRhEy"
+    >
+      東京都目黒区目黒３丁目９−１ 目黒 須田 ビル 5F
+    </div>
+    <div
+      className="sc-gGBfsJ bNBEex sc-htoDjs holYui"
+    >
+      090-1234-5678
+    </div>
+  </div>
+  <div
+    className="sc-gGBfsJ hQsuZ sc-htoDjs bDJmQW"
+    r={2}
+  >
+    <img
+      className="sc-dNLxif konKSF"
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: SearchInputMock:Search 1`] = `
+<div
+  className="sc-bwzfXH haYavP"
+>
+  <input
+    className="sc-btzYZH dUnMxr"
+  />
+</div>
+`;
+
+exports[`Cosmos fixtures: SolarPanel:SolarPanel 1`] = `
+Array [
+  <div
+    className="sc-ckVGcZ hjPHX"
+  />,
+  <div
+    className="sc-ckVGcZ hjPHX"
+  />,
+  <div
+    className="sc-ckVGcZ hjPHX"
+  />,
+  <div
+    className="sc-ckVGcZ hjPHX"
+  />,
+]
+`;
+
+exports[`Cosmos fixtures: Template:fixture 1`] = `
+<div
+  className="sc-hMFtBS ibPiQm"
+/>
+`;
+
+exports[`Cosmos fixtures: Timetable:Timetable 1`] = `
+<div
+  className="sc-gwVKww gKIOsN"
+>
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi fiSucd"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cRmEKu"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi NJeLs"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kjGmmu"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi gtpTcm"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jdbjMV"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bShYut"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi gJxnus"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi jAbnvJ"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi ksBdMg"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jyOvEf"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kqRzpE"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi eoDMKN"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi fuZNRf"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi YkzmA"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi ejZZHH"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi dqHJGo"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dnUSEg"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi hNuNmm"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dulKVn"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi ioaeQd"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cPdCqI"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi hXQjJP"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kbzFGa"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi cCMDnS"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi dtaowL"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi icdRHo"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi crbbef"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi guUnVU"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi dbpYO"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cYwnfq"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi fgrCPe"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cLkdT"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi gqZyoU"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kOWzHT"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi MlYCS"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi fcbBaq"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi bwHNpP"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kwpDgT"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cvpeSY"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dBIMNH"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi jFPehX"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi lnEaaV"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi juEKNW"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bQjFmC"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi cxaWPX"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cTSYOE"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi hPvlSZ"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jTIlKJ"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi gXZOzc"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi lezzJu"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi iltecc"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi LxQj"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi iGSvxj"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi glyWAi"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dFgoyK"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bphgcu"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kIuSBY"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi gqlrkr"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi lggLnu"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dwqPLN"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cgzYtq"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi goSxfs"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cLJzCb"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jtUQeX"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cdpvce"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi czEDcq"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi iSUNOF"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cLDYVT"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi dnpCUT"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi cFqhkg"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi ihuove"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi eUXxEx"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi ekLMdL"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi hFYVeL"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi iYSMyB"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi WwuEV"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jAQmfB"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jYAjeZ"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi cjakOt"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi ikucBJ"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi esnZnQ"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi hKBptO"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi XEnZR"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi SPHxl"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi cdOZCE"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi gUsdAg"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi iqFIFM"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi Qnzrh"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi djAAeo"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bqJxDF"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi hYRIRZ"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi gUnIJs"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi czvCpd"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi kYvFza"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi hiZHDk"
+    color="#333"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bhODma"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi bpMkFn"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN dcxbmN sc-hXRMBi jedWbS"
+    color="#ccc"
+  />
+  <div
+    className="sc-epnACN gGGOib sc-hXRMBi ePnLjt"
+    color="#333"
+  />
+  <div
+    className="sc-bsbRJL eGaylT sc-hXRMBi erWeXE"
+  >
+    taro
+  </div>
+  <div
+    className="sc-bsbRJL eGaylT sc-hXRMBi hyHpby"
+  >
+    jiro
+  </div>
+  <div
+    className="sc-bsbRJL eGaylT sc-hXRMBi hHquTL"
+  >
+    hanako
+  </div>
+  <div
+    className="sc-hXRMBi fiSucd"
+  >
+    10
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi cRmEKu"
+  >
+    10
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi NJeLs"
+  >
+    10
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi kjGmmu"
+  >
+    10
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi gtpTcm"
+  >
+    11
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi jdbjMV"
+  >
+    11
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi bShYut"
+  >
+    11
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi gJxnus"
+  >
+    11
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi jAbnvJ"
+  >
+    12
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi ksBdMg"
+  >
+    12
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi jyOvEf"
+  >
+    12
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi kqRzpE"
+  >
+    12
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi eoDMKN"
+  >
+    13
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi fuZNRf"
+  >
+    13
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi YkzmA"
+  >
+    13
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi ejZZHH"
+  >
+    13
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi dqHJGo"
+  >
+    14
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi dnUSEg"
+  >
+    14
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi hNuNmm"
+  >
+    14
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi dulKVn"
+  >
+    14
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi ioaeQd"
+  >
+    15
+    :
+    00
+  </div>
+  <div
+    className="sc-hXRMBi cPdCqI"
+  >
+    15
+    :
+    15
+  </div>
+  <div
+    className="sc-hXRMBi hXQjJP"
+  >
+    15
+    :
+    30
+  </div>
+  <div
+    className="sc-hXRMBi kbzFGa"
+  >
+    15
+    :
+    45
+  </div>
+  <div
+    className="sc-hXRMBi cCMDnS"
+  >
+    16
+    :
+    00
+  </div>
+  <div
+    className="sc-iQNlJl lppcBb sc-hXRMBi kgXzUp"
+  >
+    <div>
+      10:30
+    </div>
+    <div>
+      [
+      taro
+      ]: 
+      外出
+    </div>
+  </div>
+  <div
+    className="sc-iQNlJl lppcBb sc-hXRMBi gMvvQN"
+  >
+    <div>
+      13:45
+    </div>
+    <div>
+      [
+      taro
+      ]: 
+      外出
+    </div>
+  </div>
+  <div
+    className="sc-iQNlJl lppcBb sc-hXRMBi bQtmOp"
+  >
+    <div>
+      11:30
+    </div>
+    <div>
+      [
+      hanako
+      ]: 
+      お昼
+    </div>
+  </div>
+  <div
+    className="sc-iQNlJl lppcBb sc-hXRMBi cGjked"
+  >
+    <div>
+      12:30
+    </div>
+    <div>
+      [
+      jiro
+      ]: 
+      会議
+    </div>
+  </div>
+  <div
+    className="sc-iQNlJl lppcBb sc-hXRMBi darVU"
+  >
+    <div>
+      12:30
+    </div>
+    <div>
+      [
+      hanako
+      ]: 
+      会議
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Twitter:fixture 1`] = `
+<div
+  className="sc-hZSUBg fcfegs"
+>
+  <div
+    className="sc-htoDjs kuheDG"
+  >
+    <img
+      className="sc-cMhqgX hLWXUv"
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="sc-htoDjs eoXXcJ"
+  >
+    <div
+      className="sc-iuJeZd hCceT"
+    >
+      terrierscript
+    </div>
+    <div
+      className="sc-esOvli jRfGfi"
+    >
+      @terrierscript
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs iWCYSl"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-angle-down fa-w-10 "
+      color="#aaa"
+      data-icon="angle-down"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 320 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-htoDjs hzujKb"
+  >
+    <div
+      className="sc-cmthru hvkDrZ"
+    >
+      あのイーハトーヴォの すきとおった風、 夏でも底に冷たさをもつ青いそら、 うつくしい森で飾られたモーリオ市、 郊外のぎらぎらひかる草の波。
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs kycQiq"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-comment fa-w-16 "
+      color="#aaa"
+      data-icon="comment"
+      data-prefix="far"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-htoDjs cdzTTs"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-heart fa-w-16 "
+      color="#aaa"
+      data-icon="heart"
+      data-prefix="far"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-htoDjs fiIsRL"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-retweet fa-w-20 "
+      color="#aaa"
+      data-icon="retweet"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 640 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M629.657 343.598L528.971 444.284c-9.373 9.372-24.568 9.372-33.941 0L394.343 343.598c-9.373-9.373-9.373-24.569 0-33.941l10.823-10.823c9.562-9.562 25.133-9.34 34.419.492L480 342.118V160H292.451a24.005 24.005 0 0 1-16.971-7.029l-16-16C244.361 121.851 255.069 96 276.451 96H520c13.255 0 24 10.745 24 24v222.118l40.416-42.792c9.285-9.831 24.856-10.054 34.419-.492l10.823 10.823c9.372 9.372 9.372 24.569-.001 33.941zm-265.138 15.431A23.999 23.999 0 0 0 347.548 352H160V169.881l40.416 42.792c9.286 9.831 24.856 10.054 34.419.491l10.822-10.822c9.373-9.373 9.373-24.569 0-33.941L144.971 67.716c-9.373-9.373-24.569-9.373-33.941 0L10.343 168.402c-9.373 9.373-9.373 24.569 0 33.941l10.822 10.822c9.562 9.562 25.133 9.34 34.419-.491L96 169.881V392c0 13.255 10.745 24 24 24h243.549c21.382 0 32.09-25.851 16.971-40.971l-16.001-16z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: Usage:fixture 1`] = `
+<div
+  className="sc-fYxtnH lppwLn"
+>
+  Hello styled
+</div>
+`;
+
+exports[`Cosmos fixtures: Usage2:fixture 1`] = `
+<div
+  className="sc-tilXH czPUhX sc-fYxtnH lppwLn"
+>
+  Hello styled
+</div>
+`;
+
+exports[`Cosmos fixtures: styled.div 1:ImageBackground 1`] = `
+<div
+  className="sc-bxivhb dAfdWD"
+>
+  <div
+    className="sc-bZQynM hTdtbk"
+  >
+    Some Content
+  </div>
+</div>
+`;
+
+exports[`Cosmos fixtures: styled.div:Border 1`] = `
+<div
+  className="sc-gzVnrw jAEwTn"
+>
+  Top
+</div>
+`;
+
+exports[`Cosmos fixtures: styled.div:Border 1 1`] = `
+<div
+  className="sc-gzVnrw ZCZrS"
+>
+  Top Left
+</div>
+`;
+
+exports[`Cosmos fixtures: styled.div:Border 2 1`] = `
+<div
+  className="sc-gzVnrw eHFmJp"
+  width={10}
+>
+  Bottom Rigth
+</div>
+`;
+
+exports[`Cosmos fixtures: styled.div:Gradient 1`] = `
+<div
+  className="sc-bwzfXH haYavP"
+>
+  <div
+    className="sc-bZQynM hTdtbk"
+  >
+    Some Content
+  </div>
+</div>
+`;
