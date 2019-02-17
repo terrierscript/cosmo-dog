@@ -15,3 +15,14 @@ action "aquariuslt/github-actions-yarn@master" {
   runs = "yarn"
   args = "test"
 }
+
+workflow "New workflow 1" {
+  on = "pull_request"
+  resolves = ["aquariuslt/github-actions-yarn@master-1"]
+}
+
+action "aquariuslt/github-actions-yarn@master-1" {
+  uses = "aquariuslt/github-actions-yarn@master"
+  runs = "yarn"
+  args = "install"
+}
