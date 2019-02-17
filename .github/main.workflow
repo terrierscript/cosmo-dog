@@ -16,13 +16,26 @@ action "aquariuslt/github-actions-yarn@master" {
   args = "test"
 }
 
-workflow "New workflow 1" {
-  on = "pull_request"
-  resolves = ["aquariuslt/github-actions-yarn@master-1"]
+workflow "Pull Req" {
+  on = "issue_comment"
+  resolves = ["vsoch/pull-request-action"]
 }
 
-action "aquariuslt/github-actions-yarn@master-1" {
+action "install-pull" {
   uses = "aquariuslt/github-actions-yarn@master"
   runs = "yarn"
   args = "install"
+}
+
+action "test-upgrade" {
+  uses = "aquariuslt/github-actions-yarn@master"
+  needs = ["install-pull"]
+  runs = "yarn"
+  args = "test -u"
+}
+
+action "vsoch/pull-request-action" {
+  uses = "vsoch/pull-request-action@master"
+  needs = ["test-upgrade"]
+  secrets = ["GITHUB_TOKEN"]
 }
