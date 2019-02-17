@@ -1,6 +1,6 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["install"]
+  resolves = ["aquariuslt/github-actions-yarn@master"]
 }
 
 action "install" {
@@ -9,7 +9,7 @@ action "install" {
   args = "install"
 }
 
-action "test" {
+action "aquariuslt/github-actions-yarn@master" {
   uses = "aquariuslt/github-actions-yarn@master"
   needs = ["install"]
   runs = "yarn"
