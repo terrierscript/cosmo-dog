@@ -113,6 +113,7 @@ const HeaderCell = styled(Area)`
   text-align: center;
   height: 100%;
 `;
+
 const Headers = () => {
   return (
     <>
