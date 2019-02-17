@@ -4,5 +4,8 @@
     "@babel/preset-env",
     "@babel/preset-react"
   ],
-  "plugins": ["@babel/plugin-syntax-async-generators"]
+  "plugins": [
+    "@babel/plugin-syntax-async-generators",
+    "@babel/plugin-proposal-class-properties"
+  ]
 }
