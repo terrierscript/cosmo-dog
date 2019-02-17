@@ -4,6 +4,5 @@ workflow "New workflow" {
 }
 
 action "test" {
-  uses = "docker://node:latest"
-  runs = "yarn; yarn test"
+  uses = ".docker/Dockerfile"
 }
