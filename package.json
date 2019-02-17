@@ -51,6 +51,7 @@
     "start:old": "cosmos",
     "start": "cosmos --config cosmos.config.next.js",
     "build:old": "cosmos-export; ls cosmos-export",
-    "build": "cosmos-export --config cosmos.config.next.js"
+    "build": "cosmos-export --config cosmos.config.next.js",
+    "test": "jest test/"
   }
 }
