@@ -21,10 +21,10 @@ const CssVars = styled.div`
   --b: #29c5f0;
   --r: #e31558;
   --y: #ecb208;
-  --rad-g: 2em 2em 2em 0;
-  --rad-b: 2em 2em 0 2em;
-  --rad-r: 2em 0 2em 2em;
-  --rad-y: 0 2em 2em 2em;
+  --rad-g1: 2em 2em 2em 0;
+  --rad-b1: 2em 2em 0 2em;
+  --rad-r1: 2em 0 2em 2em;
+  --rad-y1: 0 2em 2em 2em;
 `
 
 const Box = styled.div<{
@@ -35,15 +35,23 @@ const Box = styled.div<{
   height: 100%;
   background: ${ ({color}) => `var(--${color})` };
   grid-area: ${ ({color, size}) => `${color}${size}`};
-  border-radius: ${({color}) => `var(--rad-${color},2em)` };
+  border-radius: ${({color, size}) => `var(--rad-${color}${size},2em)` };
 `
+
+
+
+const product = (a, b) => a
+  .map(aa => b.map( bb => [aa, bb]))
+  .reduce((c,n) => [...c, ...n], [])
+
+
 
 
 export const SlackLogo = () => {
   return <CssVars>
     <Grid>{
-      ["b", "g", "r", "y"].map( color => 
-        [1, 2].map( size => <Box key={ `${color}${size}` } size={size} color={color} /> )
+      product(["b", "g", "r", "y"], [1, 2]).map( ([color, size]) => 
+        <Box key={ `${color}${size}` } size={size} color={color} />
       )
     }
     </Grid>
